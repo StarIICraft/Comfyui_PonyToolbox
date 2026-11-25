@@ -4,7 +4,7 @@
 
 ComfyUI Pony Toolbox is a growing utility collection for ComfyUI workflows, covering text preset selection, prompt processing, generic branch switching, and unified INSPYRENET/FeyNoBg matting.
 
-![Overview](img/文本预设选择器.jpg)
+![Overview](img/文本预设选择器.png)
 ![Overview](docs/images/00_overview.png)
 
 ## Nodes
