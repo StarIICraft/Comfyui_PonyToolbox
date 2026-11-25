@@ -68,6 +68,76 @@ def _without_pymatting():
         sys.modules.update(saved)
 
 
+@contextmanager
+def _without_albumentations():
+    """
+    Import transparent_background without its optional Albumentations path.
+
+    INSPYRENET receives PIL images from this node, so Remover only uses its
+    torchvision path. Stubbing Albumentations avoids incompatible
+    albumentations/albucore combinations installed by other custom nodes.
+    """
+    prefixes = (
+        "albumentations",
+        "albucore",
+        "transparent_background",
+    )
+    saved = {
+        name: module
+        for name, module in list(sys.modules.items())
+        if any(
+            name == prefix or name.startswith(prefix + ".")
+            for prefix in prefixes
+        )
+    }
+    for name in saved:
+        sys.modules.pop(name, None)
+
+    albumentations = types.ModuleType("albumentations")
+    albumentations.__path__ = []
+    albumentations.Resize = lambda *args, **kwargs: None
+    albumentations.Normalize = lambda *args, **kwargs: None
+    albumentations.Compose = lambda *args, **kwargs: None
+
+    albumentations_pytorch = types.ModuleType(
+        "albumentations.pytorch"
+    )
+    albumentations_pytorch.__path__ = []
+    albumentations_pytorch.ToTensorV2 = (
+        lambda *args, **kwargs: None
+    )
+
+    albumentations_core = types.ModuleType("albumentations.core")
+    albumentations_core.__path__ = []
+    transforms_interface = types.ModuleType(
+        "albumentations.core.transforms_interface"
+    )
+    transforms_interface.ImageOnlyTransform = object
+
+    albumentations.pytorch = albumentations_pytorch
+    albumentations.core = albumentations_core
+    albumentations_core.transforms_interface = transforms_interface
+
+    sys.modules["albumentations"] = albumentations
+    sys.modules["albumentations.pytorch"] = (
+        albumentations_pytorch
+    )
+    sys.modules["albumentations.core"] = albumentations_core
+    sys.modules[
+        "albumentations.core.transforms_interface"
+    ] = transforms_interface
+    try:
+        yield
+    finally:
+        for name in list(sys.modules):
+            if any(
+                name == prefix or name.startswith(prefix + ".")
+                for prefix in prefixes
+            ):
+                sys.modules.pop(name, None)
+        sys.modules.update(saved)
+
+
 def _tensor_to_pil(image):
     array = (
         image[..., :3]
@@ -112,7 +182,7 @@ def _unload_model(patcher):
 
 
 def _load_inspyrenet(model_path):
-    with _without_pymatting():
+    with _without_albumentations(), _without_pymatting():
         from transparent_background.Remover import Remover
 
         remover = Remover(ckpt=str(model_path), device="cpu")
