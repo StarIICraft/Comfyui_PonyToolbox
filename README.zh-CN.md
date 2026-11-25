@@ -3,7 +3,7 @@
 [English](README.md) | [简体中文](README.zh-CN.md)
 
 ComfyUI 小马工具箱是一套持续扩展的 ComfyUI 工作流工具，目前包含文本预设、文本编辑、提示词处理、绝对任意切换，以及支持 INSPYRENET 与 FeyNoBg 的抠图节点。
-![总览](img/文本预设选择器.jpg)
+![总览](img/文本预设选择器.png)
 ![总览](docs/images/00_overview.png)
 
 
