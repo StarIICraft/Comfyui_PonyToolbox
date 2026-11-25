@@ -100,6 +100,28 @@ class MaskPercentTests(unittest.TestCase):
 
 
 class MattingNodeSchemaTests(unittest.TestCase):
+    def test_albumentations_stub_context_restores_modules(self):
+        node = _load_matting_node()
+        sentinel = types.ModuleType("albumentations")
+        previous = sys.modules.get("albumentations")
+        sys.modules["albumentations"] = sentinel
+        try:
+            with node._without_albumentations():
+                import albumentations
+
+                self.assertIsNot(albumentations, sentinel)
+                self.assertTrue(callable(albumentations.Resize))
+                self.assertTrue(callable(albumentations.Compose))
+            self.assertIs(
+                sys.modules.get("albumentations"),
+                sentinel,
+            )
+        finally:
+            if previous is None:
+                sys.modules.pop("albumentations", None)
+            else:
+                sys.modules["albumentations"] = previous
+
     def test_percentage_mask_inputs_and_defaults(self):
         node = _load_matting_node()
         required = node.PonyToolboxMatting.INPUT_TYPES()["required"]
