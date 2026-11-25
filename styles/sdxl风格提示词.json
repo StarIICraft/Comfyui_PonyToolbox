@@ -1,0 +1,537 @@
+[
+  {
+    "name": "基础原样",
+    "prompt": "{prompt}",
+    "negative_prompt": ""
+  },
+  {
+    "name": "三维模型",
+    "prompt": "professional 3d render of {prompt}, physically based materials, accurate surface roughness, sculptural volume, controlled reflections, global illumination, soft ambient occlusion, clean geometry",
+    "negative_prompt": "broken geometry, intersecting surfaces, floating components, incorrect reflections, excessive ambient occlusion, unintended low-poly surfaces, watermark, signature"
+  },
+  {
+    "name": "模拟胶片",
+    "prompt": "analog film photograph of {prompt}, 35mm film aesthetic, organic film grain, gentle halation, soft highlight roll-off, subtle color shifts, natural exposure, authentic optical character",
+    "negative_prompt": "digital oversharpening, plastic skin, excessive film damage, heavy artificial grain overlay, crushed shadows, clipped highlights, watermark, signature"
+  },
+  {
+    "name": "日系动漫",
+    "prompt": "Japanese anime illustration of {prompt}, expressive features, clean linework, layered cel shading, carefully grouped hair, readable silhouette, selective soft gradients, polished key visual",
+    "negative_prompt": "unintended photorealism, muddy shading, tangled linework, malformed hands, extra limbs, duplicate features, watermark, signature"
+  },
+  {
+    "name": "电影剧照",
+    "prompt": "cinematic film still of {prompt}, motivated lighting, deliberate framing, restrained cinematic color grading, realistic materials, subtle film grain, selective focus, narrative atmosphere",
+    "negative_prompt": "unmotivated lighting, excessive bloom, artificial HDR halos, oversharpening, waxy skin, accidental motion blur, watermark, signature"
+  },
+  {
+    "name": "美式漫画",
+    "prompt": "American comic book illustration of {prompt}, expressive ink contours, bold shadow shapes, dynamic form definition, clean color separation, selective halftone texture, graphic visual hierarchy",
+    "negative_prompt": "muddy inks, unreadable silhouettes, excessive halftone, malformed hands, extra limbs, accidental speech bubbles, watermark, signature"
+  },
+  {
+    "name": "黏土手作",
+    "prompt": "handcrafted clay interpretation of {prompt}, sculpted clay forms, subtle fingerprints, rounded handmade edges, matte tactile surfaces, miniature studio lighting, believable physical construction",
+    "negative_prompt": "polished metal surfaces, glassy plastic finish, excessive fingerprints, broken construction, melted forms, watermark, signature"
+  },
+  {
+    "name": "数字绘画",
+    "prompt": "digital painting of {prompt}, confident brushwork, organized value masses, selective edge control, painterly transitions, clear material separation, refined focal details, simplified secondary passages",
+    "negative_prompt": "muddy blending, indiscriminate texture, uniformly sharp edges, unresolved focal details, unintended anatomical errors, watermark, signature"
+  },
+  {
+    "name": "画面增强",
+    "prompt": "{prompt}, clear focal hierarchy, well-resolved forms, balanced values, consistent material rendering, intentional edge control, carefully finished focal details",
+    "negative_prompt": "compression artifacts, accidental blur, broken contours, inconsistent lighting, duplicated features, watermark, signature"
+  },
+  {
+    "name": "奇幻艺术",
+    "prompt": "fantasy illustration of {prompt}, imaginative visual language, luminous atmosphere, elegant shape rhythms, layered painterly rendering, refined material detail, evocative light and shadow",
+    "negative_prompt": "indiscriminate glow, excessive decorative clutter, muddy silhouettes, malformed anatomy, accidental duplicated objects, watermark, signature"
+  },
+  {
+    "name": "等距视角",
+    "prompt": "isometric illustration of {prompt}, orthographic projection, consistent parallel axes, readable three-quarter overhead view, clean geometry, organized spatial relationships, crisp object separation",
+    "negative_prompt": "conflicting perspective, converging orthographic lines, inconsistent scale, intersecting geometry, accidental wide-angle distortion, watermark, signature"
+  },
+  {
+    "name": "线稿插画",
+    "prompt": "line illustration of {prompt}, expressive contour drawing, controlled line weight, clean structural lines, selective hatching, deliberate negative space, readable overlapping forms",
+    "negative_prompt": "muddy filled shadows, accidental color patches, excessive crosshatching, broken contours, tangled construction lines, watermark, signature"
+  },
+  {
+    "name": "低多边形",
+    "prompt": "low-poly 3d interpretation of {prompt}, deliberate faceted geometry, simplified polygonal forms, flat-shaded planes, clean silhouette, economical surface detail, lighting that reveals polygon structure",
+    "negative_prompt": "unintended smooth subdivision, photorealistic microtexture, broken mesh, random spikes, intersecting geometry, watermark, signature"
+  },
+  {
+    "name": "霓虹朋克",
+    "prompt": "neonpunk interpretation of {prompt}, graphic high-contrast lighting, luminous edge accents, sleek surfaces, controlled neon reflections, deep structured shadows, contemporary retro-digital mood",
+    "negative_prompt": "excessive bloom, clipped neon highlights, unreadable dark masses, random light sources, uncontrolled chromatic aberration, watermark, signature"
+  },
+  {
+    "name": "折纸艺术",
+    "prompt": "origami interpretation of {prompt}, folded paper construction, crisp creases, angular paper planes, visible paper thickness, restrained paper grain, believable folds, soft directional shadows",
+    "negative_prompt": "melted paper, impossible folds, clay texture, metallic surfaces, excessive crumpling, broken construction, watermark, signature"
+  },
+  {
+    "name": "写实摄影",
+    "prompt": "photorealistic photograph of {prompt}, believable proportions, natural material response, coherent exposure, realistic lens rendering, accurate focus, restrained color grading",
+    "negative_prompt": "unintended illustration, plastic surfaces, oversharpening, artificial HDR halos, malformed anatomy, impossible reflections, watermark, signature"
+  },
+  {
+    "name": "像素艺术",
+    "prompt": "pixel art of {prompt}, deliberate pixel clusters, crisp pixel edges, cohesive limited palette, readable silhouette, selective dithering, consistent pixel scale",
+    "negative_prompt": "antialiasing, smooth gradients, mixed pixel scales, blurry pixels, jpeg artifacts, accidental stray pixels, watermark, signature"
+  },
+  {
+    "name": "材质纹理",
+    "prompt": "material texture study of {prompt}, front-facing surface view, even illumination, consistent scale, clearly resolved surface structure, accurate roughness, minimal perspective distortion",
+    "negative_prompt": "strong perspective, dramatic cast shadows, uneven exposure, embedded text, excessive specular glare, watermark, signature"
+  },
+  {
+    "name": "广告海报",
+    "prompt": "advertising poster for {prompt}, unmistakable hero subject, immediate visual impact, clean graphic hierarchy, deliberate negative space, controlled commercial lighting, polished presentation",
+    "negative_prompt": "competing focal points, crowded layout, accidental logos, illegible typography, inconsistent product geometry, watermark, signature"
+  },
+  {
+    "name": "汽车广告",
+    "prompt": "automotive advertising photograph of {prompt}, precise vehicle geometry, sculpted body reflections, controlled paint highlights, believable tire contact, premium commercial finish, strong visual hierarchy",
+    "negative_prompt": "warped wheels, inconsistent wheelbase, melted body panels, impossible reflections, floating tires, accidental logos, watermark, signature"
+  },
+  {
+    "name": "企业品牌",
+    "prompt": "corporate brand visual for {prompt}, disciplined layout, clean geometric relationships, restrained visual language, clear focal hierarchy, generous negative space, consistent design system",
+    "negative_prompt": "cluttered composition, inconsistent graphic styles, accidental logos, arbitrary decorative elements, illegible typography, watermark, signature"
+  },
+  {
+    "name": "时尚杂志大片",
+    "prompt": "fashion editorial photograph of {prompt}, sophisticated art direction, expressive styling, sculpted editorial light, tactile fabric detail, natural skin texture, confident magazine-quality framing",
+    "negative_prompt": "waxy skin, excessive retouching, distorted garments, malformed hands, accidental magazine text, watermark, signature"
+  },
+  {
+    "name": "美食摄影",
+    "prompt": "professional food photograph of {prompt}, appetizing food styling, believable ingredient textures, directional soft light, accurate moisture and gloss, clear focal dish, natural color rendition",
+    "negative_prompt": "plastic food, artificial oversaturation, impossible ingredient structures, excessive grease, distracting clutter, watermark, signature"
+  },
+  {
+    "name": "高端美食摄影",
+    "prompt": "fine dining editorial photograph of {prompt}, meticulous plating, refined ingredient separation, precise texture detail, controlled specular highlights, soft directional illumination, elegant visual restraint",
+    "negative_prompt": "unrequested garnish, excessive sauce, overcrowded plating, plastic ingredients, harsh flash, watermark, signature"
+  },
+  {
+    "name": "奢华产品",
+    "prompt": "luxury product photograph of {prompt}, precise material rendering, sculpted studio highlights, controlled reflections, immaculate finish, elegant negative space, restrained premium presentation",
+    "negative_prompt": "warped product geometry, fingerprints, accidental scratches, blown reflections, clutter, accidental logos, watermark, signature"
+  },
+  {
+    "name": "房地产摄影",
+    "prompt": "professional real estate photograph of {prompt}, corrected vertical lines, balanced window exposure, natural interior illumination, believable room proportions, clear spatial flow, realistic materials",
+    "negative_prompt": "bent walls, extreme wide-angle distortion, impossible room geometry, excessive HDR, tilted verticals, watermark, signature"
+  },
+  {
+    "name": "零售包装",
+    "prompt": "retail packaging design for {prompt}, clear front-panel hierarchy, consistent graphic system, precise print alignment, believable folds and edges, commercially readable presentation",
+    "negative_prompt": "warped packaging, conflicting panel perspective, accidental brand names, illegible text, broken folds, watermark, signature"
+  },
+  {
+    "name": "抽象艺术",
+    "prompt": "abstract interpretation of {prompt}, expressive color relationships, intentional shape masses, rhythmic spatial balance, layered surface treatment, deliberate nonliteral visual structure",
+    "negative_prompt": "arbitrary visual clutter, unintentional muddy color, accidental representational objects, compression artifacts, watermark, signature"
+  },
+  {
+    "name": "抽象表现主义",
+    "prompt": "abstract expressionist interpretation of {prompt}, gestural brushwork, layered paint, energetic marks, expressive surface variation, expansive visual rhythm, intentional tension between dense and open passages",
+    "negative_prompt": "mechanically repeated strokes, uniform texture overlay, accidental muddy mixtures, compression artifacts, watermark, signature"
+  },
+  {
+    "name": "装饰艺术",
+    "prompt": "Art Deco interpretation of {prompt}, streamlined geometry, stepped forms, elegant symmetry where appropriate, crisp contours, luxurious surface accents, disciplined decorative rhythm",
+    "negative_prompt": "uncontrolled ornament, inconsistent geometry, accidental floral clutter, muddy edges, watermark, signature"
+  },
+  {
+    "name": "新艺术风格",
+    "prompt": "Art Nouveau illustration of {prompt}, flowing organic contours, elegant silhouette, flattened decorative modeling, rhythmic hair and fabric shapes, harmonious ornamental structure",
+    "negative_prompt": "unrequested floral borders, arbitrary ornament, tangled contours, excessive volumetric gloss, watermark, signature"
+  },
+  {
+    "name": "构成主义",
+    "prompt": "Constructivist interpretation of {prompt}, bold geometric masses, diagonal visual tension, industrial graphic rhythm, strong figure-ground contrast, economical shapes, deliberate asymmetrical balance",
+    "negative_prompt": "arbitrary geometry, weak figure-ground separation, excessive gradients, accidental slogans, watermark, signature"
+  },
+  {
+    "name": "立体主义",
+    "prompt": "Cubist interpretation of {prompt}, interlocking geometric planes, simultaneous viewpoints, faceted volume, analytical fragmentation, controlled spatial compression, recognizable underlying structure",
+    "negative_prompt": "unstructured fragmentation, arbitrary duplicated features, muddy plane separation, photorealistic surface finish, watermark, signature"
+  },
+  {
+    "name": "表现主义",
+    "prompt": "Expressionist interpretation of {prompt}, emotionally charged contours, purposeful form distortion, expressive brush marks, psychological color relationships, forceful value structure",
+    "negative_prompt": "accidental anatomical confusion, meaningless distortion, mechanical brush repetition, muddy focal structure, watermark, signature"
+  },
+  {
+    "name": "街头涂鸦",
+    "prompt": "graffiti-inspired artwork of {prompt}, bold aerosol contours, layered spray textures, controlled overspray, energetic graphic shapes, stencil accents, strong street-art visual rhythm",
+    "negative_prompt": "illegible accidental lettering, random tags, excessive paint drips, obscured subject, watermark, signature"
+  },
+  {
+    "name": "超写实主义",
+    "prompt": "hyperrealistic artwork of {prompt}, exceptionally precise material observation, subtle surface irregularities, lifelike optical behavior, controlled microdetail, accurate form modeling, refined tonal transitions",
+    "negative_prompt": "excessive sharpening, plastic skin, uniform pores, artificial texture overlays, impossible reflections, watermark, signature"
+  },
+  {
+    "name": "印象派",
+    "prompt": "Impressionist painting of {prompt}, broken color, visible brushwork, light-sensitive edges, atmospheric value relationships, optical color mixing, forms suggested through painterly observation",
+    "negative_prompt": "uniform photographic sharpness, mechanical brush texture, muddy color mixtures, overly rigid outlines, watermark, signature"
+  },
+  {
+    "name": "点彩画",
+    "prompt": "Pointillist painting of {prompt}, distinct dots of pigment, optical color mixing, carefully organized dot density, luminous tonal relationships, readable forms at viewing distance",
+    "negative_prompt": "smooth airbrushing, large opaque brush swaths, random digital noise, inconsistent dot scale, watermark, signature"
+  },
+  {
+    "name": "波普艺术",
+    "prompt": "Pop Art interpretation of {prompt}, bold contours, flat commercial color, crisp shadow shapes, selective halftone dots, iconic subject presentation, playful graphic contrast",
+    "negative_prompt": "unrequested repeated panels, accidental speech bubbles, indiscriminate halftone, muddy outlines, watermark, signature"
+  },
+  {
+    "name": "迷幻艺术",
+    "prompt": "psychedelic interpretation of {prompt}, flowing visual rhythms, vibrating color relationships, organic pattern transformations, dreamlike spatial tension, controlled optical complexity",
+    "negative_prompt": "unreadable focal subject, arbitrary pattern clutter, muddy color transitions, unintended duplicated anatomy, watermark, signature"
+  },
+  {
+    "name": "文艺复兴",
+    "prompt": "Renaissance-inspired painting of {prompt}, balanced visual structure, carefully observed anatomy, subtle chiaroscuro, layered glazing, refined contours, luminous tonal modeling",
+    "negative_prompt": "unrequested religious symbols, artificial digital glow, incoherent anatomy, arbitrary ornament, watermark, signature"
+  },
+  {
+    "name": "蒸汽朋克",
+    "prompt": "steampunk interpretation of {prompt}, Victorian industrial design language, aged brass and copper where appropriate, tactile leather, functional mechanical detailing, restrained patina, crafted material realism",
+    "negative_prompt": "nonfunctional gear clutter, excessive rust, melted machinery, inconsistent mechanical connections, watermark, signature"
+  },
+  {
+    "name": "超现实主义",
+    "prompt": "Surrealist interpretation of {prompt}, lucid dream logic, uncanny visual relationships, precise material rendering, deliberate spatial ambiguity, coherent light across impossible circumstances",
+    "negative_prompt": "arbitrary incoherence, accidental duplicated objects, muddy focal structure, inconsistent illumination, watermark, signature"
+  },
+  {
+    "name": "字体艺术",
+    "prompt": "typographic artwork based on {prompt}, expressive letterforms, deliberate kerning, strong typographic hierarchy, balanced negative space, coherent lettering construction, graphic readability",
+    "negative_prompt": "unrequested wording, broken letterforms, accidental extra characters, inconsistent baseline, illegible type, watermark, signature"
+  },
+  {
+    "name": "水彩画",
+    "prompt": "watercolor painting of {prompt}, transparent washes, subtle pigment granulation, controlled wet edges, delicate dry-brush accents, preserved paper highlights, layered translucent modeling",
+    "negative_prompt": "muddy wash buildup, uncontrolled bleeding over focal features, opaque plastic finish, excessive paper texture overlay, watermark, signature"
+  },
+  {
+    "name": "生物机械",
+    "prompt": "biomechanical interpretation of {prompt}, integrated organic and mechanical forms, continuous structural transitions, articulated components, tactile material contrast, coherent functional anatomy",
+    "negative_prompt": "random mechanical clutter, disconnected anatomy, arbitrary tubes, nonfunctional joints, melted structural details, watermark, signature"
+  },
+  {
+    "name": "生物机械赛博朋克",
+    "prompt": "biomechanical cyberpunk interpretation of {prompt}, integrated cybernetic anatomy, organic-mechanical transitions, industrial surface precision, selective luminous accents, moody controlled reflections",
+    "negative_prompt": "unstructured cable clutter, disconnected components, unreadable anatomy, excessive neon bloom, watermark, signature"
+  },
+  {
+    "name": "控制论未来",
+    "prompt": "cybernetic futurist interpretation of {prompt}, integrated technological systems, clean interface logic, functional enhancement design, precise material transitions, controlled technological detailing",
+    "negative_prompt": "arbitrary circuitry, disconnected implants, meaningless interface clutter, inconsistent construction, watermark, signature"
+  },
+  {
+    "name": "控制论机器人",
+    "prompt": "cybernetic robot interpretation of {prompt}, articulated robotic construction, functional joints, precise panel seams, believable actuator placement, differentiated metal and composite surfaces",
+    "negative_prompt": "broken joint mechanics, floating panels, random exposed wires, impossible articulation, melted machinery, watermark, signature"
+  },
+  {
+    "name": "赛博朋克都市",
+    "prompt": "cyberpunk cityscape featuring {prompt}, layered urban density, integrated futuristic infrastructure, selective neon signage, atmospheric depth, believable architectural scale, controlled reflective surfaces",
+    "negative_prompt": "inconsistent building perspective, random signage noise, excessive bloom, unreadable street layout, accidental repeated buildings, watermark, signature"
+  },
+  {
+    "name": "未来科技",
+    "prompt": "futuristic design interpretation of {prompt}, sleek functional forms, precise surface transitions, integrated high-technology details, advanced material finish, restrained interface elements where appropriate",
+    "negative_prompt": "arbitrary panel lines, meaningless technical clutter, nonfunctional components, excessive glow, watermark, signature"
+  },
+  {
+    "name": "复古赛博朋克",
+    "prompt": "retro cyberpunk interpretation of {prompt}, 1980s science-fiction visual language, analog electronic character, graphic rim lighting, tactile industrial surfaces, controlled neon contrast, cinematic retro atmosphere",
+    "negative_prompt": "excessive VHS damage, random grid overlays, indiscriminate neon, illegible interface clutter, watermark, signature"
+  },
+  {
+    "name": "复古未来主义",
+    "prompt": "retrofuturist interpretation of {prompt}, mid-century science-fiction design, streamlined forms, analog technology cues, period-inspired materials, optimistic industrial elegance, polished illustrative finish",
+    "negative_prompt": "arbitrary modern touchscreen details, inconsistent design eras, meaningless ornament, broken product geometry, watermark, signature"
+  },
+  {
+    "name": "科幻场景",
+    "prompt": "science-fiction concept illustration of {prompt}, coherent advanced technology, convincing scale, functional design language, layered spatial depth, believable materials, clear narrative focal point",
+    "negative_prompt": "arbitrary technology clutter, inconsistent scale, impossible structural connections, excessive atmospheric effects, watermark, signature"
+  },
+  {
+    "name": "蒸汽波",
+    "prompt": "vaporwave interpretation of {prompt}, nostalgic digital aesthetics, soft pastel-neon relationships, gentle gradient transitions, restrained VHS softness, retro-computer visual character, dreamlike graphic balance",
+    "negative_prompt": "automatic statue additions, random palm trees, excessive scan lines, unreadable focal subject, heavy compression artifacts, watermark, signature"
+  },
+  {
+    "name": "泡泡龙游戏",
+    "prompt": "Bubble Bobble-inspired game artwork of {prompt}, cheerful arcade sprite design, rounded cartoon forms, compact silhouettes, crisp pixel clusters, limited vibrant palette, playful 1980s arcade character",
+    "negative_prompt": "photorealistic textures, blurred pixel edges, inconsistent pixel scale, unnecessary interface overlays, accidental copied game logos, watermark, signature"
+  },
+  {
+    "name": "赛博朋克游戏",
+    "prompt": "cyberpunk game concept art of {prompt}, production-ready shape language, readable futuristic design, tactical material separation, selective emissive accents, cinematic value structure, clear focal silhouette",
+    "negative_prompt": "excessive neon effects, random interface overlays, nonfunctional technical clutter, unreadable dark details, watermark, signature"
+  },
+  {
+    "name": "格斗游戏",
+    "prompt": "fighting game character artwork of {prompt}, powerful silhouette, expressive form modeling, crisp action-oriented contours, bold value grouping, clearly defined costume shapes, high-impact promotional illustration",
+    "negative_prompt": "unrequested pose changes, uncontrolled muscle distortion, unclear limbs, excessive motion effects, accidental interface elements, watermark, signature"
+  },
+  {
+    "name": "侠盗猎车游戏插画",
+    "prompt": "Grand Theft Auto promotional illustration aesthetic, {prompt}, bold ink-like contours, flat shadow planes, selectively modeled skin, graphic fabric folds, satirical editorial attitude, polished poster-like rendering",
+    "negative_prompt": "automatic weapons or vehicles, accidental game logos, speech bubbles, muddy outlines, unintended anatomical errors, watermark, signature"
+  },
+  {
+    "name": "超级马里奥",
+    "prompt": "Super Mario-inspired character artwork of {prompt}, appealing rounded forms, clean toy-like materials, expressive cartoon features, simple readable construction, bright family-friendly game rendering",
+    "negative_prompt": "automatic franchise character additions, accidental logos, gritty surface damage, uncanny realistic faces, broken geometry, watermark, signature"
+  },
+  {
+    "name": "我的世界",
+    "prompt": "Minecraft-inspired interpretation of {prompt}, cubic construction, block-aligned geometry, low-resolution tiled textures, crisp voxel silhouette, consistent block scale, simple directional lighting",
+    "negative_prompt": "smooth sculpted surfaces, inconsistent block scale, excessive bevels, photorealistic microtexture, broken cubic geometry, watermark, signature"
+  },
+  {
+    "name": "宝可梦",
+    "prompt": "Pokémon-inspired illustration of {prompt}, clean friendly contours, appealing simplified anatomy, readable shape design, compact cel shadows, expressive features, polished adventure-game character art",
+    "negative_prompt": "automatic creature additions, copied franchise logos, excessive realistic texture, overcomplicated shading, unintended anatomical errors, watermark, signature"
+  },
+  {
+    "name": "街机复古",
+    "prompt": "retro arcade pixel artwork of {prompt}, compact 8-bit sprite forms, limited palette, deliberate pixel placement, strong figure-ground separation, crisp edges, economical animation-ready shape design",
+    "negative_prompt": "smooth gradients, antialiasing, mixed pixel scales, automatic arcade cabinets, unnecessary interface graphics, watermark, signature"
+  },
+  {
+    "name": "复古游戏",
+    "prompt": "16-bit game artwork of {prompt}, carefully clustered pixels, rich limited palette, selective dithering, layered sprite shading, readable silhouettes, polished early-console visual character",
+    "negative_prompt": "blurred pixels, mixed pixel resolutions, photorealistic texture, excessive dithering, unnecessary interface overlays, watermark, signature"
+  },
+  {
+    "name": "奇幻角色扮演",
+    "prompt": "fantasy RPG concept art of {prompt}, coherent costume and equipment design, distinctive silhouette, tactile material rendering, layered illustrative shading, readable world-building details",
+    "negative_prompt": "random armor additions, excessive ornamental clutter, nonfunctional equipment, unclear silhouettes, accidental interface elements, watermark, signature"
+  },
+  {
+    "name": "策略游戏",
+    "prompt": "strategy game visualization of {prompt}, readable overhead three-quarter view, consistent object scale, clearly separated units or structures where appropriate, organized spatial hierarchy, clean game-ready forms",
+    "negative_prompt": "inconsistent unit scale, conflicting camera angles, cluttered tactical readability, accidental interface overlays, watermark, signature"
+  },
+  {
+    "name": "街头霸王",
+    "prompt": "Street Fighter-inspired promotional illustration of {prompt}, bold expressive anatomy, sculptural shadow masses, forceful contour accents, painterly ink energy, clear costume shapes, powerful character presence",
+    "negative_prompt": "unrequested fighting pose, uncontrolled muscle inflation, unclear hands, excessive energy effects, copied game logos, watermark, signature"
+  },
+  {
+    "name": "塞尔达传说",
+    "prompt": "The Legend of Zelda-inspired adventure illustration of {prompt}, elegant stylized forms, painterly cel shading, natural material simplification, atmospheric light, clear silhouettes, storybook fantasy character",
+    "negative_prompt": "automatic franchise symbols, unrequested weapons, excessive realistic pores, cluttered ornament, accidental game logos, watermark, signature"
+  },
+  {
+    "name": "建筑制图",
+    "prompt": "architectural drawing of {prompt}, precise structural linework, consistent perspective, clear spatial hierarchy, controlled line weights, restrained material indication, professional presentation drawing",
+    "negative_prompt": "conflicting vanishing points, warped structural lines, impossible connections, accidental measurement text, watermark, signature"
+  },
+  {
+    "name": "迪斯科",
+    "prompt": "disco-inspired interpretation of {prompt}, 1970s nightlife glamour, rhythmic colored reflections, selective mirrored highlights, tactile satin or metallic accents where appropriate, energetic retro visual character",
+    "negative_prompt": "automatic dance-floor additions, excessive glitter, random light spots, blown reflective highlights, watermark, signature"
+  },
+  {
+    "name": "梦境风景",
+    "prompt": "dreamscape interpretation of {prompt}, poetic spatial relationships, soft atmospheric depth, selective luminous edges, gentle transitions between forms, coherent dreamlike light, evocative visual stillness",
+    "negative_prompt": "arbitrary floating objects, uniform blur, excessive fog, unreadable focal structure, watermark, signature"
+  },
+  {
+    "name": "反乌托邦",
+    "prompt": "dystopian interpretation of {prompt}, oppressive visual atmosphere, restrained industrial character, selective material wear, strong structural shadows, controlled environmental storytelling, grounded cinematic rendering",
+    "negative_prompt": "automatic ruin clutter, indiscriminate grime, unreadable darkness, arbitrary destruction, watermark, signature"
+  },
+  {
+    "name": "童话绘本",
+    "prompt": "fairy-tale storybook illustration of {prompt}, expressive drawing, gentle shape rhythms, tactile painted surfaces, selective decorative detail, clear storytelling hierarchy, warm imaginative character",
+    "negative_prompt": "automatic magical creatures, excessive decorative clutter, generic plastic rendering, unclear focal features, watermark, signature"
+  },
+  {
+    "name": "哥特",
+    "prompt": "gothic interpretation of {prompt}, elegant elongated visual rhythms, sculptural shadows, restrained ornamental emphasis, tactile dark materials, mysterious atmosphere, refined contour structure",
+    "negative_prompt": "automatic occult symbols, unrequested architectural framing, crushed unreadable blacks, excessive ornament, watermark, signature"
+  },
+  {
+    "name": "颓废摇滚",
+    "prompt": "grunge interpretation of {prompt}, distressed surface treatment, rough graphic edges, layered analog texture, selective abrasion, raw alternative-music visual energy, strong underlying silhouette",
+    "negative_prompt": "uniform dirt overlay, obscured facial features, random lettering, unreadable silhouette, excessive texture noise, watermark, signature"
+  },
+  {
+    "name": "恐怖",
+    "prompt": "horror interpretation of {prompt}, unsettling light relationships, controlled deep shadows, selective material detail, psychological tension, restrained visual ambiguity, clear central subject",
+    "negative_prompt": "unrequested gore, automatic monster additions, indiscriminate darkness, excessive fog, incoherent focal structure, watermark, signature"
+  },
+  {
+    "name": "日系可爱",
+    "prompt": "kawaii Japanese illustration of {prompt}, appealing soft contours, friendly expressive features, clean simplified shading, gentle highlights, playful shape relationships, polished cute visual language",
+    "negative_prompt": "unrequested chibi proportions, excessive facial simplification, random decorative stickers, plastic skin, malformed anatomy, watermark, signature"
+  },
+  {
+    "name": "洛夫克拉夫特恐怖",
+    "prompt": "cosmic horror interpretation of {prompt}, unsettling scale relationships, restrained uncanny detail, ominous atmospheric depth, unfamiliar material qualities, psychological unease, deliberate visual ambiguity",
+    "negative_prompt": "automatic tentacle additions, arbitrary creature clutter, excessive gore, unreadable darkness, meaningless distortion, watermark, signature"
+  },
+  {
+    "name": "阴森暗黑",
+    "prompt": "macabre illustration of {prompt}, solemn dark atmosphere, precise shadow design, selective aged textures, restrained grotesque suggestion, clear contours, controlled dramatic illumination",
+    "negative_prompt": "unrequested gore, automatic skull decorations, muddy shadows, excessive distressing, obscured focal subject, watermark, signature"
+  },
+  {
+    "name": "日式漫画",
+    "prompt": "Japanese manga illustration of {prompt}, expressive ink linework, controlled line-weight variation, graphic black shadow masses, selective screentones, clear overlapping forms, strong monochrome readability",
+    "negative_prompt": "unrequested color fills, excessive screentone noise, accidental panel borders, speech bubbles, tangled hatching, watermark, signature"
+  },
+  {
+    "name": "未来都市",
+    "prompt": "futuristic metropolis featuring {prompt}, coherent urban planning, layered architecture, convincing infrastructure, clear scale relationships, atmospheric depth, refined architectural materials",
+    "negative_prompt": "random skyscraper clutter, inconsistent perspective, repeated building artifacts, impossible structural connections, watermark, signature"
+  },
+  {
+    "name": "极简主义",
+    "prompt": "minimalist interpretation of {prompt}, essential forms, restrained detail, clear negative space, precise proportions, economical tonal structure, clean visual hierarchy",
+    "negative_prompt": "unnecessary ornament, decorative clutter, excessive texture, indiscriminate gradients, competing focal points, watermark, signature"
+  },
+  {
+    "name": "黑白单色",
+    "prompt": "black-and-white interpretation of {prompt}, controlled grayscale values, rich tonal separation, clear form modeling, selective texture, deliberate highlight placement, coherent monochrome structure",
+    "negative_prompt": "unrequested color accents, muddy midtones, clipped tonal range, excessive contrast halos, watermark, signature"
+  },
+  {
+    "name": "航海主题",
+    "prompt": "nautical interpretation of {prompt}, coherent maritime visual language, weather-aware materials, believable marine construction, subtle salt-weathered surfaces where appropriate, clear seafaring atmosphere",
+    "negative_prompt": "random anchor decorations, arbitrary rope clutter, impossible vessel geometry, excessive corrosion, watermark, signature"
+  },
+  {
+    "name": "太空主题",
+    "prompt": "space-themed interpretation of {prompt}, convincing celestial scale, coherent science-fiction design, selective cosmic illumination, readable silhouettes, controlled atmospheric or vacuum visual cues",
+    "negative_prompt": "random planet clutter, inconsistent light direction, excessive star noise, arbitrary lens flares, impossible object intersections, watermark, signature"
+  },
+  {
+    "name": "彩色玻璃",
+    "prompt": "stained-glass interpretation of {prompt}, clearly divided glass segments, coherent lead came lines, translucent color, subtle glass irregularities, controlled transmitted light, readable decorative structure",
+    "negative_prompt": "unstructured lead lines, excessive bloom, muddy translucent colors, opaque plastic finish, broken segment boundaries, watermark, signature"
+  },
+  {
+    "name": "机能风时装",
+    "prompt": "techwear fashion interpretation of {prompt}, functional garment construction, technical woven fabrics, articulated layering, precise straps and fastenings where appropriate, restrained utility details, editorial material clarity",
+    "negative_prompt": "random strap clutter, nonfunctional buckles, melted fabric folds, excessive cybernetic additions, malformed anatomy, watermark, signature"
+  },
+  {
+    "name": "部落图腾",
+    "prompt": "totemic graphic interpretation of {prompt}, bold symbolic shape organization, carved-form visual rhythm, handcrafted surface character, coherent geometric repetition, culturally specific motifs only when explicitly requested",
+    "negative_prompt": "random mixing of unrelated cultural symbols, invented sacred emblems, generic costume stereotypes, incoherent patterns, watermark, signature"
+  },
+  {
+    "name": "禅绕画",
+    "prompt": "zentangle interpretation of {prompt}, intricate pen patterns, repeated structured marks, controlled black-and-white rhythm, clear outer silhouette, carefully varied pattern density, meditative linework",
+    "negative_prompt": "random scribbles, uniform pattern density, muddy black masses, broken contours, accidental lettering, watermark, signature"
+  },
+  {
+    "name": "拼贴艺术",
+    "prompt": "mixed-media collage of {prompt}, deliberate cut edges, layered material fragments, coherent shape assembly, selective paper and photographic textures, clear focal hierarchy, tactile overlap",
+    "negative_prompt": "random unrelated imagery, unreadable subject assembly, indiscriminate texture layering, accidental lettering, watermark, signature"
+  },
+  {
+    "name": "平面剪纸",
+    "prompt": "flat papercut interpretation of {prompt}, clean cut-paper silhouettes, flat color layers, precise negative spaces, minimal surface depth, sharp handmade edges, strong graphic readability",
+    "negative_prompt": "deep volumetric shading, excessive paper stacks, melted cut edges, photorealistic surface detail, watermark, signature"
+  },
+  {
+    "name": "立体剪纸",
+    "prompt": "kirigami interpretation of {prompt}, integrated paper cutting and folding, coherent pop-up construction, crisp folds, precise cut openings, believable paper thickness, delicate structural shadows",
+    "negative_prompt": "impossible paper supports, melted folds, clay-like surfaces, broken construction, excessive material thickness, watermark, signature"
+  },
+  {
+    "name": "纸浆雕塑",
+    "prompt": "papier-mache interpretation of {prompt}, hand-built sculptural forms, subtle paper-fiber texture, layered paste construction, gently irregular edges, matte painted finish, believable handcrafted volume",
+    "negative_prompt": "polished plastic finish, sharp metal surfaces, excessive wet pulp texture, collapsed construction, watermark, signature"
+  },
+  {
+    "name": "衍纸艺术",
+    "prompt": "paper quilling interpretation of {prompt}, narrow curled paper strips, precise coils and loops, consistent strip thickness, controlled raised relief, clean edge shadows, coherent ornamental structure",
+    "negative_prompt": "melted paper coils, inconsistent strip scale, random tangled loops, solid clay-like forms, watermark, signature"
+  },
+  {
+    "name": "剪纸拼贴",
+    "prompt": "cut-paper collage of {prompt}, overlapping paper shapes, subtle fiber variation, clean torn or cut edges, shallow tactile layering, deliberate asymmetrical balance, readable silhouette",
+    "negative_prompt": "unrelated collage fragments, excessive depth, heavy photorealistic shading, obscured subject, accidental lettering, watermark, signature"
+  },
+  {
+    "name": "剪纸灯箱",
+    "prompt": "papercut shadow-box interpretation of {prompt}, separated silhouette layers, recessed paper depth, controlled backlighting, delicate cast shadows, precise cut edges, readable illuminated spatial planes",
+    "negative_prompt": "excessive light bloom, melted paper edges, inconsistent layer depth, floating unsupported fragments, watermark, signature"
+  },
+  {
+    "name": "层叠剪纸",
+    "prompt": "layered papercut interpretation of {prompt}, clearly stacked paper planes, consistent layer spacing, precise contour cuts, subtle paper grain, soft directional shadows, coherent relief depth",
+    "negative_prompt": "inconsistent stacking, fused layer boundaries, excessive texture, impossible layer intersections, watermark, signature"
+  },
+  {
+    "name": "厚层剪纸",
+    "prompt": "thick layered papercut interpretation of {prompt}, substantial cardstock depth, pronounced stacked relief, visible cut-edge thickness, strong interlayer shadows, clean contour registration, tactile sculptural construction",
+    "negative_prompt": "thin flat appearance, melted layer edges, inconsistent card thickness, excessive crumpling, unsupported fragments, watermark, signature"
+  },
+  {
+    "name": "外星摄影",
+    "prompt": "photorealistic extraterrestrial interpretation of {prompt}, unfamiliar but coherent materials, physically plausible illumination, convincing atmospheric conditions, grounded optical rendering, clear sense of scale",
+    "negative_prompt": "arbitrary biological clutter, incoherent anatomy, inconsistent environmental light, excessive glow, accidental duplicated forms, watermark, signature"
+  },
+  {
+    "name": "黑色电影",
+    "prompt": "film noir photograph of {prompt}, black-and-white cinematography, motivated low-key lighting, graphic chiaroscuro, selective specular highlights, rich shadow separation, restrained classic-film grain",
+    "negative_prompt": "unrequested color accents, crushed featureless blacks, artificial HDR halos, excessive fog, watermark, signature"
+  },
+  {
+    "name": "魅力人像",
+    "prompt": "glamour portrait photograph of {prompt}, sculpted beauty lighting, refined editorial presence, natural skin texture, carefully controlled highlights, elegant fabric rendering, polished portrait finish",
+    "negative_prompt": "excessive skin retouching, plastic facial texture, distorted facial features, malformed hands, clipped skin highlights, watermark, signature"
+  },
+  {
+    "name": "高动态范围摄影",
+    "prompt": "natural HDR photograph of {prompt}, extended tonal range, recovered highlight detail, open but grounded shadows, realistic local contrast, accurate material texture, balanced exposure",
+    "negative_prompt": "HDR halos, crunchy microcontrast, unnatural saturation, flat global illumination, clipped highlights, watermark, signature"
+  },
+  {
+    "name": "手机摄影",
+    "prompt": "smartphone photograph of {prompt}, natural handheld framing, believable mobile-camera perspective, moderate computational sharpening, balanced automatic exposure, realistic everyday detail, casual photographic immediacy",
+    "negative_prompt": "excessive sharpening halos, artificial portrait-mask edges, implausible optical bokeh, heavy studio stylization, watermark, signature"
+  },
+  {
+    "name": "长曝光摄影",
+    "prompt": "long-exposure photograph of {prompt}, stable stationary structures, physically coherent motion trails, continuous exposure behavior, controlled highlight accumulation, realistic movement blur, balanced ambient exposure",
+    "negative_prompt": "camera shake on stationary objects, disconnected light trails, random ghost duplicates, clipped light streaks, inconsistent motion direction, watermark, signature"
+  },
+  {
+    "name": "霓虹黑色电影",
+    "prompt": "neon noir interpretation of {prompt}, motivated colored practical lighting, low-key exposure, controlled luminous reflections, graphic shadow structure, restrained cinematic grading, tense nocturnal atmosphere",
+    "negative_prompt": "automatic rain additions, excessive neon signage, crushed shadows, indiscriminate bloom, unrelated lens flares, watermark, signature"
+  },
+  {
+    "name": "剪影艺术",
+    "prompt": "silhouette artwork of {prompt}, solid clearly defined shape masses, strong figure-ground contrast, precise negative spaces, readable overlapping forms, economical internal detail, graphic simplicity",
+    "negative_prompt": "unnecessary interior shading, unclear contour intersections, excessive texture, weak background separation, watermark, signature"
+  },
+  {
+    "name": "移轴摄影",
+    "prompt": "tilt-shift miniature-effect photograph of {prompt}, elevated viewpoint where appropriate, narrow plane of sharp focus, gradual optical defocus, believable miniature scale cues, precise central details",
+    "negative_prompt": "uniform full-frame blur, abrupt blur-mask boundaries, inconsistent focal plane, excessive saturation, warped geometry, watermark, signature"
+  }
+]

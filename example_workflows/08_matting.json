@@ -1,0 +1,371 @@
+{
+  "id": "pony-toolbox-matting",
+  "revision": 0,
+  "last_node_id": 5,
+  "last_link_id": 3,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "LoadImage",
+      "pos": [
+        40,
+        120
+      ],
+      "size": [
+        330,
+        460
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "图像",
+          "name": "image",
+          "type": "COMBO",
+          "widget": {
+            "name": "image"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "上传",
+          "name": "upload",
+          "type": "IMAGEUPLOAD",
+          "widget": {
+            "name": "upload"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "图像",
+          "localized_name": "图像",
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            1
+          ]
+        },
+        {
+          "label": "遮罩",
+          "localized_name": "遮罩",
+          "name": "MASK",
+          "type": "MASK",
+          "links": []
+        }
+      ],
+      "title": "输入图像",
+      "properties": {
+        "Node name for S&R": "LoadImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.45.0"
+      },
+      "widgets_values": [
+        "example.png",
+        "image"
+      ],
+      "widgets_values_named": {
+        "image": "example.png",
+        "upload": "image"
+      }
+    },
+    {
+      "id": 2,
+      "type": "PonyToolboxMatting",
+      "pos": [
+        430,
+        120
+      ],
+      "size": [
+        420,
+        300
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "抠图模型",
+          "name": "backend",
+          "type": "COMBO",
+          "widget": {
+            "name": "backend"
+          },
+          "link": null
+        },
+        {
+          "label": "图像",
+          "localized_name": "图像",
+          "name": "image",
+          "type": "IMAGE",
+          "link": 1
+        },
+        {
+          "localized_name": "灵敏度",
+          "name": "sensitivity",
+          "type": "FLOAT",
+          "widget": {
+            "name": "sensitivity"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "遮罩偏移百分比",
+          "name": "mask_offset_percent",
+          "type": "FLOAT",
+          "widget": {
+            "name": "mask_offset_percent"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "遮罩羽化百分比",
+          "name": "mask_feather_percent",
+          "type": "FLOAT",
+          "widget": {
+            "name": "mask_feather_percent"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "反转输出",
+          "name": "invert_output",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "invert_output"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "细化前景边缘",
+          "name": "refine_foreground",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "refine_foreground"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "背景模式",
+          "name": "background",
+          "type": "COMBO",
+          "widget": {
+            "name": "background"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "背景颜色",
+          "name": "background_color",
+          "type": "STRING",
+          "widget": {
+            "name": "background_color"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "显存策略",
+          "name": "memory_policy",
+          "type": "COMBO",
+          "widget": {
+            "name": "memory_policy"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "图像",
+          "localized_name": "图像",
+          "name": "图像",
+          "type": "IMAGE",
+          "links": [
+            2
+          ]
+        },
+        {
+          "label": "遮罩",
+          "localized_name": "遮罩",
+          "name": "遮罩",
+          "type": "MASK",
+          "links": []
+        },
+        {
+          "label": "遮罩图像",
+          "localized_name": "遮罩图像",
+          "name": "遮罩图像",
+          "type": "IMAGE",
+          "links": [
+            3
+          ]
+        }
+      ],
+      "title": "抠图-小马",
+      "properties": {
+        "Node name for S&R": "PonyToolboxMatting"
+      },
+      "widgets_values": [
+        "FeyNoBg 抠图",
+        1,
+        -0.1,
+        0.07,
+        false,
+        true,
+        "透明背景",
+        "#222222",
+        "保持模型加载"
+      ],
+      "widgets_values_named": {
+        "backend": "FeyNoBg 抠图",
+        "sensitivity": 1,
+        "mask_offset_percent": -0.1,
+        "mask_feather_percent": 0.07,
+        "invert_output": false,
+        "refine_foreground": true,
+        "background": "透明背景",
+        "background_color": "#222222",
+        "memory_policy": "保持模型加载"
+      }
+    },
+    {
+      "id": 3,
+      "type": "PreviewImage",
+      "pos": [
+        900,
+        80
+      ],
+      "size": [
+        380,
+        460
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "图像",
+          "localized_name": "图像",
+          "name": "images",
+          "type": "IMAGE",
+          "link": 2
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "images",
+          "name": "images",
+          "type": "IMAGE",
+          "links": []
+        }
+      ],
+      "title": "RGBA 抠图",
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.45.0"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 4,
+      "type": "PreviewImage",
+      "pos": [
+        900,
+        580
+      ],
+      "size": [
+        380,
+        460
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "图像",
+          "localized_name": "图像",
+          "name": "images",
+          "type": "IMAGE",
+          "link": 3
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "images",
+          "name": "images",
+          "type": "IMAGE",
+          "links": []
+        }
+      ],
+      "title": "遮罩预览",
+      "properties": {
+        "Node name for S&R": "PreviewImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.45.0"
+      },
+      "widgets_values": []
+    },
+    {
+      "id": 5,
+      "type": "MarkdownNote",
+      "pos": [
+        1340,
+        80
+      ],
+      "size": [
+        460,
+        320
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "示例说明",
+      "properties": {},
+      "widgets_values": [
+        "支持 INSPYRENET 与 FeyNoBg。两者都直接读取本地模型，并注册到 ComfyUI 模型管理。\n\nSelect keep-loaded for repeated runs, or unload-after-run to release VRAM."
+      ]
+    }
+  ],
+  "links": [
+    [
+      1,
+      1,
+      0,
+      2,
+      1,
+      "IMAGE"
+    ],
+    [
+      2,
+      2,
+      0,
+      3,
+      0,
+      "IMAGE"
+    ],
+    [
+      3,
+      2,
+      2,
+      4,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.8,
+      "offset": [
+        60,
+        60
+      ]
+    }
+  },
+  "version": 0.4
+}

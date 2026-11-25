@@ -1,0 +1,187 @@
+{
+  "id": "pony-toolbox-prompt-styler",
+  "revision": 0,
+  "last_node_id": 11,
+  "last_link_id": 2,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "PonyToolboxAdvancedPromptStyler",
+      "pos": [
+        80,
+        120
+      ],
+      "size": [
+        420,
+        300
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "样式文件",
+          "localized_name": "style_file",
+          "name": "style_file",
+          "type": "COMBO",
+          "widget": {
+            "name": "style_file"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "positive_prompt_text_g",
+          "localized_name": "positive_prompt_text_g",
+          "name": "positive_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            1
+          ]
+        },
+        {
+          "label": "negative_prompt_text_g",
+          "localized_name": "negative_prompt_text_g",
+          "name": "negative_prompt_text_g",
+          "type": "STRING",
+          "links": [
+            2
+          ]
+        }
+      ],
+      "title": "提示词风格器-小马",
+      "properties": {
+        "Node name for S&R": "PonyToolboxAdvancedPromptStyler"
+      },
+      "widgets_values": [
+        "a cinematic portrait",
+        "low quality, watermark",
+        "sdxl风格提示词.json",
+        "数字绘画",
+        "No",
+        ""
+      ],
+      "widgets_values_named": {
+        "text_positive": "a cinematic portrait",
+        "text_negative": "low quality, watermark",
+        "style_file": "sdxl风格提示词.json",
+        "style": "数字绘画",
+        "log_prompt": "No",
+        "style_name": ""
+      }
+    },
+    {
+      "id": 10,
+      "type": "ShowText|pysssss",
+      "pos": [
+        520,
+        80
+      ],
+      "size": [
+        360,
+        220
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "文本",
+          "name": "text_0",
+          "type": "STRING",
+          "widget": {
+            "name": "text_0"
+          },
+          "link": null
+        },
+        {
+          "label": "文本",
+          "localized_name": "文本",
+          "name": "text",
+          "type": "STRING",
+          "link": 1
+        }
+      ],
+      "outputs": [],
+      "title": "正向提示词预览",
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        ""
+      ]
+    },
+    {
+      "id": 11,
+      "type": "ShowText|pysssss",
+      "pos": [
+        920,
+        80
+      ],
+      "size": [
+        360,
+        220
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "文本",
+          "name": "text_0",
+          "type": "STRING",
+          "widget": {
+            "name": "text_0"
+          },
+          "link": null
+        },
+        {
+          "label": "文本",
+          "localized_name": "文本",
+          "name": "text",
+          "type": "STRING",
+          "link": 2
+        }
+      ],
+      "outputs": [],
+      "title": "负向提示词预览",
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        ""
+      ]
+    }
+  ],
+  "links": [
+    [
+      1,
+      1,
+      0,
+      10,
+      1,
+      "STRING"
+    ],
+    [
+      2,
+      1,
+      1,
+      11,
+      1,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.85,
+      "offset": [
+        60,
+        60
+      ]
+    }
+  },
+  "version": 0.4
+}

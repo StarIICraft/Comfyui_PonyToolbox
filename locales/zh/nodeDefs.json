@@ -1,0 +1,322 @@
+{
+  "PonyToolboxTextPresetSelector": {
+    "display_name": "文本预设-小马",
+    "description": "从 presets 目录读取 TXT 或 Markdown 预设，并输出完整文本。",
+    "inputs": {
+      "预设": {
+        "name": "预设",
+        "tooltip": "选择 presets 目录中的 TXT 或 Markdown 预设文件。"
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "文本",
+        "tooltip": "输出所选预设的完整内容。"
+      }
+    }
+  },
+  "PonyToolboxEnhancedTextPresetSelector": {
+    "display_name": "增强文本预设-小马",
+    "description": "读取预设后提供多行编辑区，可在不修改源文件的情况下调整文本。",
+    "inputs": {
+      "预设": {
+        "name": "预设",
+        "tooltip": "选择要载入的 TXT 或 Markdown 预设文件。"
+      },
+      "临时编辑文本": {
+        "name": "临时编辑文本",
+        "tooltip": "在这里修改载入的文本；不会写回原预设文件。"
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "文本",
+        "tooltip": "输出编辑后的文本内容。"
+      }
+    }
+  },
+  "PonyToolboxSimpleTextSelector": {
+    "display_name": "TXT 文本预设-小马",
+    "description": "从 text_library 中的 TXT 文件按标题读取正文。",
+    "inputs": {
+      "TXT文件": {
+        "name": "TXT 文件",
+        "tooltip": "选择 text_library 中的 TXT 文件。"
+      },
+      "预设标题": {
+        "name": "预设标题",
+        "tooltip": "选择要读取的标题段落。"
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "文本输出",
+        "tooltip": "输出所选标题下的正文。"
+      }
+    }
+  },
+  "PonyToolboxEditableTextSelector": {
+    "display_name": "文本预设编辑器-小马",
+    "description": "选择 TXT 文件和标题后读取正文，可直接编辑并输出当前文本。",
+    "inputs": {
+      "TXT文件": {
+        "name": "TXT 文件",
+        "tooltip": "选择 text_library 中的 TXT 文件。"
+      },
+      "预设标题": {
+        "name": "预设标题",
+        "tooltip": "选择要读取和编辑的标题段落。"
+      },
+      "文本内容": {
+        "name": "文本内容",
+        "tooltip": "编辑当前标题下的正文；输出使用这里的内容。"
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "文本输出",
+        "tooltip": "输出编辑区中的当前文本。"
+      }
+    }
+  },
+  "PonyToolboxAdvancedTextConcat": {
+    "display_name": "高级文本拼接-小马",
+    "description": "合并最多五段文本，支持忽略空值、清理空白、去除空行、去重和转义解析。",
+    "inputs": {
+      "text1": {
+        "name": "文本 1",
+        "tooltip": "第一段文本。"
+      },
+      "text2": {
+        "name": "文本 2",
+        "tooltip": "第二段文本。"
+      },
+      "text3": {
+        "name": "文本 3",
+        "tooltip": "第三段文本。"
+      },
+      "delimiter": {
+        "name": "分隔符",
+        "tooltip": "各段文本之间使用的分隔字符串。"
+      },
+      "text4": {
+        "name": "文本 4",
+        "tooltip": "可选的第四段文本。"
+      },
+      "text5": {
+        "name": "文本 5",
+        "tooltip": "可选的第五段文本。"
+      },
+      "skip_empty": {
+        "name": "忽略空值",
+        "tooltip": "拼接时跳过空字符串和空值。"
+      },
+      "trim_parts": {
+        "name": "清理首尾空白",
+        "tooltip": "删除每段文本开头和结尾的空白。"
+      },
+      "remove_empty_lines": {
+        "name": "移除空行",
+        "tooltip": "删除结果中的空行。"
+      },
+      "collapse_whitespace": {
+        "name": "合并连续空白",
+        "tooltip": "把连续空白压缩为单个空格。"
+      },
+      "deduplicate": {
+        "name": "去除重复",
+        "tooltip": "删除相邻的重复文本段。"
+      },
+      "decode_escapes": {
+        "name": "解析转义字符",
+        "tooltip": "把 \\n、\\r、\\t 和 \\\\ 转换为对应字符。"
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "拼接结果",
+        "tooltip": "输出处理后的拼接文本。"
+      }
+    }
+  },
+  "PonyToolboxAdvancedPromptStyler": {
+    "display_name": "提示词样式器-小马",
+    "description": "将样式模板应用到正向和负向提示词，并支持自定义样式名称。",
+    "inputs": {
+      "text_positive": {
+        "name": "正向提示词",
+        "tooltip": "要套用样式模板的正向提示词。"
+      },
+      "text_negative": {
+        "name": "负向提示词",
+        "tooltip": "要套用样式模板的负向提示词。"
+      },
+      "style_file": {
+        "name": "选择文件",
+        "tooltip": "选择样式列表上方显示的 JSON 风格文件。"
+      },
+      "style": {
+        "name": "样式",
+        "tooltip": "从 styles 目录选择一个预设样式。"
+      },
+      "log_prompt": {
+        "name": "输出日志",
+        "tooltip": "选择是否在控制台输出最终提示词。"
+      },
+      "style_name": {
+        "name": "样式名称",
+        "tooltip": "可选；填写后覆盖下拉框选择的样式。"
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "正向提示词",
+        "tooltip": "应用样式后的正向提示词。"
+      },
+      "1": {
+        "name": "负向提示词",
+        "tooltip": "应用样式后的负向提示词。"
+      }
+    }
+  },
+  "PonyToolboxAbsoluteAnySwitch": {
+    "display_name": "绝对任意切换-小马",
+    "description": "按编号选择第一个有效分支，可跳过静音、旁路、禁用和空值上游。",
+    "inputs": {
+      "allow_muted_upstream": {
+        "name": "允许上游传递",
+        "tooltip": "开启后，允许静音、旁路或禁用节点沿上游传递有效值；默认关闭。"
+      },
+      "any_01": {
+        "name": "输入 01",
+        "tooltip": "按输入编号顺序选择第一个有效值。"
+      },
+      "any_02": {
+        "name": "输入 02",
+        "tooltip": "按输入编号顺序选择第一个有效值。"
+      },
+      "any_03": {
+        "name": "输入 03",
+        "tooltip": "按输入编号顺序选择第一个有效值。"
+      },
+      "any_04": {
+        "name": "输入 04",
+        "tooltip": "按输入编号顺序选择第一个有效值。"
+      },
+      "any_05": {
+        "name": "输入 05",
+        "tooltip": "按输入编号顺序选择第一个有效值。"
+      },
+      "any_06": {
+        "name": "输入 06",
+        "tooltip": "按输入编号顺序选择第一个有效值。"
+      },
+      "any_07": {
+        "name": "输入 07",
+        "tooltip": "按输入编号顺序选择第一个有效值。"
+      },
+      "any_08": {
+        "name": "输入 08",
+        "tooltip": "按输入编号顺序选择第一个有效值。"
+      },
+      "any_09": {
+        "name": "输入 09",
+        "tooltip": "按输入编号顺序选择第一个有效值。"
+      },
+      "any_10": {
+        "name": "输入 10",
+        "tooltip": "按输入编号顺序选择第一个有效值。"
+      },
+      "any_11": {
+        "name": "输入 11",
+        "tooltip": "按输入编号顺序选择第一个有效值。"
+      },
+      "any_12": {
+        "name": "输入 12",
+        "tooltip": "按输入编号顺序选择第一个有效值。"
+      },
+      "any_13": {
+        "name": "输入 13",
+        "tooltip": "按输入编号顺序选择第一个有效值。"
+      },
+      "any_14": {
+        "name": "输入 14",
+        "tooltip": "按输入编号顺序选择第一个有效值。"
+      },
+      "any_15": {
+        "name": "输入 15",
+        "tooltip": "按输入编号顺序选择第一个有效值。"
+      },
+      "any_16": {
+        "name": "输入 16",
+        "tooltip": "按输入编号顺序选择第一个有效值。"
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "输出",
+        "tooltip": "输出第一个有效输入值。"
+      }
+    }
+  },
+  "PonyToolboxMatting": {
+    "display_name": "抠图-小马",
+    "description": "使用本地 INSPYRENET 或 FeyNoBg 模型抠图，输出 RGBA、遮罩和遮罩预览。",
+    "inputs": {
+      "backend": {
+        "name": "抠图模型",
+        "tooltip": "选择本地抠图模型：INSPYRENET 或 FeyNoBg。"
+      },
+      "image": {
+        "name": "图像",
+        "tooltip": "需要去除背景的图像批次。"
+      },
+      "sensitivity": {
+        "name": "灵敏度",
+        "tooltip": "调整遮罩对比度；1.0 保持模型原始预测。"
+      },
+      "mask_offset_percent": {
+        "name": "遮罩偏移百分比",
+        "tooltip": "按图像百万像素等效边长调整遮罩；正数扩张，负数收缩，默认 -0.1%。"
+      },
+      "mask_feather_percent": {
+        "name": "遮罩羽化百分比",
+        "tooltip": "先偏移再羽化；按图像百万像素等效边长计算高斯半径，默认 0.07%。"
+      },
+      "invert_output": {
+        "name": "反转遮罩",
+        "tooltip": "反转最终遮罩。"
+      },
+      "refine_foreground": {
+        "name": "细化前景边缘",
+        "tooltip": "细化发丝和半透明边缘，减少旧背景光晕。"
+      },
+      "background": {
+        "name": "背景模式",
+        "tooltip": "输出透明背景，或把主体合成到纯色背景。"
+      },
+      "background_color": {
+        "name": "背景颜色",
+        "tooltip": "纯色背景使用的十六进制颜色，例如 #222222。"
+      },
+      "memory_policy": {
+        "name": "显存策略",
+        "tooltip": "保持模型加载可加快连续运行；每次卸载可释放显存。"
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "图像",
+        "tooltip": "抠图结果或纯色背景合成图。"
+      },
+      "1": {
+        "name": "遮罩",
+        "tooltip": "抠图透明度遮罩。"
+      },
+      "2": {
+        "name": "遮罩图像",
+        "tooltip": "用于预览的遮罩图像。"
+      }
+    }
+  }
+}

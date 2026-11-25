@@ -1,0 +1,23 @@
+{
+  "deepseek4.1": {
+    "model": "deepseek-v4.1-flash-1017"
+  },
+  "deepseek": {
+    "model": "deepseek-flash"
+  },
+  "OpenAI": {
+    "model": "gpt-6.1-sol"
+  },
+  "Google": {
+    "model": "gemini-4-hydrogen"
+  },
+  "Zhipu": {
+    "model": "glm-5.3-flash"
+  },
+  "doubao": {
+    "model": "doubao-seed-2-0-lite-260428"
+  },
+  "Grok": {
+    "model": "grok-4.6"
+  }
+}

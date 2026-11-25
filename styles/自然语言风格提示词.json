@@ -1,0 +1,207 @@
+[
+  {
+    "name": "基础原样",
+    "prompt": "{prompt}",
+    "negative_prompt": ""
+  },
+  {
+    "name": "画师·米山舞｜图形化动态与通透反光",
+    "prompt": "Render {prompt} with the graphic energy and contemporary anime illustration sensibility associated with Mai Yoneyama. Use flowing contours, large organized hair shapes, selective transparency, and a deliberate balance of flat color and softly modeled volume. Build movement through the existing silhouette and directional shapes, with selective luminous reflections and carefully placed sharp edges. Keep the focal features precise and let secondary passages remain simplified. Preserve the requested subject, composition, and background without introducing extra visual motifs.",
+    "negative_prompt": "Avoid unintended anatomical errors, tangled silhouettes, indiscriminate glow, uniformly glossy surfaces, excessive microdetail, added props, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "画师·望月けい｜锐利轮廓与暗黑潮流",
+    "prompt": "Render {prompt} with the sharp, fashion-conscious anime illustration language associated with Kei Mochizuki. Emphasize angular shape design, decisive contours, graphic shadow masses, and a controlled tension between elegant features and an unsettling mood. Keep the shading economical and use selective detail to distinguish the face, clothing, and accessories already present. Let attitude emerge through the rendering rather than by redesigning the subject. Preserve the requested composition and background.",
+    "negative_prompt": "Avoid unrequested costume changes, added horror symbols, excessive gradients, muddy shadow masses, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "画师·LAM｜高对比潮流与醒目图形",
+    "prompt": "Render {prompt} with the bold contemporary anime graphics associated with LAM. Use crisp silhouettes, emphatic eyes, clean color separation, and sharply controlled highlights that make the subject readable at a glance. Treat shadows as intentional graphic shapes and reserve the strongest accents for the focal features. Maintain a polished commercial finish without turning every surface into reflective plastic. Preserve the existing design and do not add typography, symbols, or background graphics unless requested.",
+    "negative_prompt": "Avoid competing focal points, excessive glow, random graphic overlays, unrequested accessories, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "画师·lack｜幻想角色与厚涂材质",
+    "prompt": "Render {prompt} with the richly modeled fantasy character illustration approach associated with lack. Combine an anime-informed face with confident painterly shading, structured costume forms, and clearly differentiated fabric, leather, and metal where those materials are present. Use firm shadow shapes and selective reflected light to establish volume without burying the design in texture. Concentrate finish around the face and important existing details. Preserve the requested proportions, equipment, composition, and background.",
+    "negative_prompt": "Avoid invented armor components, excessive ornament, muddy textures, uniformly sharp detail, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "画师·藤ちょこ｜细腻幻想与通透层染",
+    "prompt": "Render {prompt} with the luminous fantasy illustration sensibility associated with fuzichoco. Use delicate contours, translucent color layering, refined surface detail, and carefully separated overlapping forms. Create richness through subtle value transitions and selective ornamental attention within the design already provided. Keep the main subject clearly readable even when the rendering becomes intricate. Do not introduce scenery, decorative objects, or additional patterns unless they belong to the request.",
+    "negative_prompt": "Avoid indiscriminate detail, washed-out focal features, excessive bloom, invented ornaments, tangled overlaps, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "画师·Mika Pikazo｜鲜明色块与潮流拼接感",
+    "prompt": "Render {prompt} with the exuberant contemporary anime illustration energy associated with Mika Pikazo. Organize vivid color relationships into confident blocks, use expressive contour accents, and alternate crisp graphic passages with painterly transitions. Let existing clothing and hair shapes carry the rhythm rather than adding unrelated collage material. Keep the face and silhouette readable beneath the visual intensity. Preserve the requested content, composition, and background.",
+    "negative_prompt": "Avoid random collage additions, uncontrolled color noise, obscured facial features, excessive chromatic splitting, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "画师·redjuice｜精密科幻与冷冽半写实",
+    "prompt": "Render {prompt} with the sleek science-fiction illustration sensibility associated with redjuice. Combine refined anime features with precise material rendering, controlled specular highlights, and clean mechanical form definition wherever equipment is already present. Use smooth tonal transitions interrupted by purposeful hard edges to create a polished, slightly austere finish. Keep fine detail subordinate to the overall silhouette. Do not add technological components, interface graphics, or futuristic scenery unless requested.",
+    "negative_prompt": "Avoid invented machinery, arbitrary interface overlays, excessive lens effects, uniformly metallic skin, muddy details, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "画师·huke｜粗粝笔触与冷峻角色感",
+    "prompt": "Render {prompt} with the restrained, rough-edged character illustration language associated with huke. Use economical facial modeling, strong dark shapes, dry textured brushwork, and selective hard highlights. Allow some surfaces to remain sketch-like while preserving the clarity of important contours and existing equipment. Build atmosphere through the treatment of the subject rather than through added scenery. Preserve the requested design, pose, and background.",
+    "negative_prompt": "Avoid excessive grunge overlays, obscured faces, invented weapon details, muddy silhouettes, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "画师·しらび｜精致轻小说与柔硬结合",
+    "prompt": "Render {prompt} with the polished light-novel character illustration sensibility associated with Shirabii. Use clean fine contours, expressive eyes, layered cel shadows, and restrained soft transitions across skin and hair. Describe clothing folds clearly while keeping the overall finish light and approachable. Give the face and key existing accessories more attention than secondary surfaces. Preserve the requested character design, proportions, composition, and background.",
+    "negative_prompt": "Avoid excessive airbrushing, waxy skin, overcomplicated shadows, unrequested costume changes, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "画师·森倉円｜清透人物与柔和商业插画",
+    "prompt": "Render {prompt} with the clear, gentle character illustration sensibility associated with En Morikura. Use delicate linework, smooth but restrained skin modeling, carefully grouped hair strands, and soft coherent illumination. Keep expressions natural and prioritize a clean visual hierarchy over decorative density. Differentiate materials subtly rather than through exaggerated shine. Preserve the requested subject and styling without adding props or scenery.",
+    "negative_prompt": "Avoid porcelain-like skin, excessive bloom, overly uniform softness, invented accessories, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "画师·焦茶｜纤长线条与平面时尚",
+    "prompt": "Render {prompt} with the flowing graphic illustration sensibility associated with the illustrator known as Chocoflan or 焦茶. Emphasize elegant contour rhythms, simplified shadow planes, and the interplay between long directional forms and compact areas of detail. Keep the finish relatively flat while using selective overlap and tonal contrast to clarify depth. Express fashion-oriented confidence through the existing design rather than changing its proportions or costume. Preserve the requested composition and background.",
+    "negative_prompt": "Avoid unrequested body elongation, redesigned clothing, excessive volumetric shading, tangled contours, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "画师·ASK｜细腻半厚涂与精致人物",
+    "prompt": "Render {prompt} with the refined anime-oriented digital painting sensibility associated with ASK. Combine delicate facial features with smoothly integrated brushwork, carefully modeled hair, and selective high-clarity material accents. Use controlled soft edges across rounded forms and firmer edges around important overlaps and accessories. Maintain a polished appearance without erasing all traces of painterly construction. Preserve the requested subject, costume, pose, and background.",
+    "negative_prompt": "Avoid excessive skin smoothing, uniformly blurred edges, ornamental additions, overly photographic facial changes, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "画师·WLOP｜电影感柔光与选择性厚涂",
+    "prompt": "Render {prompt} with the cinematic digital fantasy painting sensibility associated with WLOP. Use broad atmospheric value masses, selective luminous highlights, soft transitions, and a deliberate contrast between sharply resolved focal features and loosely painted secondary surfaces. Let skin, fabric, and reflective materials respond differently to the same coherent light. Suggest depth through edge control rather than through indiscriminate blur. Preserve the requested subject and background without adding particles, scenery, or decorative effects.",
+    "negative_prompt": "Avoid excessive bloom, floating particles, uniformly blurred details, photographic face replacement, invented scenery, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "画师·GUWEIZ｜低调光影与都市幻想质感",
+    "prompt": "Render {prompt} with the moody digital illustration sensibility associated with GUWEIZ. Build the image from broad shadow shapes, restrained surface detail, selective reflective accents, and painterly transitions that retain a strong silhouette. Keep the face expressive and allow darker secondary areas to remain economical. Create cinematic tension through light and edge relationships rather than by automatically introducing a city or rainy setting. Preserve the requested design, composition, and background.",
+    "negative_prompt": "Avoid crushed unreadable shadows, automatic rain or city additions, excessive fog, random neon, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "画师·RossDraws｜明亮幻想与流动光感",
+    "prompt": "Render {prompt} with the vibrant fantasy illustration sensibility associated with RossDraws. Use flowing shape rhythms, luminous but controlled light, broad painterly transitions, and a clear separation between the focal subject and secondary passages. Balance softly modeled forms with a few decisive contour accents so the image stays energetic rather than diffuse. Keep the requested character proportions and design intact. Do not add magical effects, scenery, or floating objects unless explicitly requested.",
+    "negative_prompt": "Avoid excessive glow, unrequested magical effects, inflated facial features, uniformly soft edges, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "画师·Loish｜有机造型与柔韧笔触",
+    "prompt": "Render {prompt} with the organic digital painting sensibility associated with Loish. Use supple contour rhythms, broad expressive brushwork, gentle shifts in hue and value, and a tactile distinction between soft forms and sharper structural accents. Simplify secondary surfaces while keeping the face and existing gesture expressive. Adapt the rendering language without changing the requested anatomy, body type, or costume. Preserve the composition and background.",
+    "negative_prompt": "Avoid unrequested body reshaping, excessive facial stylization, muddy blending, arbitrary decorative additions, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "插画·潮流日系半厚涂",
+    "prompt": "Render {prompt} as a contemporary Japanese commercial character illustration that combines cel-shaded structure with selective painterly softness. Establish clear shadow groups first, then soften transitions only where skin, hair, or rounded fabric forms require it. Use restrained colored reflections and selective gloss to distinguish materials. Keep focal details precise and secondary passages more economical. Preserve the requested design and background without adding graphic elements or props.",
+    "negative_prompt": "Avoid uniformly glossy materials, indiscriminate gradients, excessive glow, invented decorations, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "插画·精致多层赛璐璐",
+    "prompt": "Render {prompt} as a polished anime illustration with clean contours and carefully layered cel shading. Describe volume through a small number of deliberate shadow levels, adding soft transitions only where they improve form. Keep hair grouped into readable masses and make fabric folds structurally convincing. Reserve the strongest contrast for the focal features. Preserve all requested content, proportions, and background.",
+    "negative_prompt": "Avoid muddy gradients, accidental shadow fragments, uniformly thick outlines, overcomplicated hair highlights, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "插画·复古动画赛璐珞",
+    "prompt": "Render {prompt} with the visual character of a carefully painted late-twentieth-century animation cel. Use consistent ink contours, economical flat fills, compact shadow shapes, and subtle variation that suggests hand-painted production materials. Keep the image clear rather than artificially degraded. Let the nostalgic quality come from line, timing, and surface treatment rather than from added period props. Preserve the requested composition and background.",
+    "negative_prompt": "Avoid heavy VHS overlays, excessive film damage, modern glossy rendering, unrequested retro objects, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "插画·日系幻想游戏立绘",
+    "prompt": "Render {prompt} as a premium fantasy game character illustration with a clean silhouette and highly readable costume construction. Combine anime-informed facial rendering with layered material shading and selective fine detail. Use coherent illumination to separate overlapping garments, hair, and existing equipment. Concentrate polish around the face and the most important design features while keeping secondary surfaces controlled. Preserve the requested pose, design, and background without adding interface elements or effects.",
+    "negative_prompt": "Avoid invented costume parts, added weapons, excessive ornament, interface overlays, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "插画·韩系半写实角色",
+    "prompt": "Render {prompt} as a polished Korean-style semi-realistic character illustration. Balance stylized facial appeal with convincing facial planes, carefully observed anatomy, refined hair masses, and distinct material responses. Use smooth value transitions supported by precise hard edges at structural overlaps. Keep skin luminous but textured enough to avoid a plastic appearance. Preserve the requested body type, costume, pose, and background rather than redesigning the subject.",
+    "negative_prompt": "Avoid porcelain skin, excessive beauty retouching, unrequested facial or body changes, uniformly sharp details, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "插画·绘画式游戏宣传原画",
+    "prompt": "Render {prompt} as a high-end painterly game illustration with strong value organization and confident shape design. Establish large readable forms before describing surface detail, and use visible brushwork to connect the subject into a coherent whole. Keep focal materials and facial features sharply resolved while allowing secondary passages to remain suggestive. Convey impact through lighting and edge control without changing the requested framing or adding spectacle. Preserve all specified content and background.",
+    "negative_prompt": "Avoid excessive microtexture, competing focal areas, invented environmental effects, muddy silhouettes, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "插画·图形化概念厚涂",
+    "prompt": "Render {prompt} as a contemporary concept painting built from confident, interlocking shape masses. Use broad opaque strokes, decisive value grouping, and a mixture of hard and lost edges to imply form efficiently. Describe only the details necessary to explain identity, function, and material. Maintain an intentional unfinished quality in secondary areas without making the focal subject ambiguous. Preserve the requested design and composition.",
+    "negative_prompt": "Avoid indiscriminate scribbling, unresolved focal features, accidental tangencies, excessive texture noise, unrequested design changes, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "插画·柔光空气感",
+    "prompt": "Render {prompt} as a delicate contemporary illustration with soft coherent illumination and an airy sense of volume. Use translucent transitions, restrained highlights, and fine contour accents that become clearer around important features. Retain enough local contrast to separate overlapping forms instead of dissolving everything into haze. Keep materials recognizable while maintaining a gentle overall finish. Preserve the requested background and do not add atmospheric particles or scenery.",
+    "negative_prompt": "Avoid washed-out faces, excessive bloom, uniform blur, floating particles, invented scenery, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "插画·暗黑哥特幻想",
+    "prompt": "Render {prompt} with an elegant dark fantasy illustration language. Use sculptural shadows, selective luminous edges, refined contour work, and tactile differentiation between existing fabrics, skin, and hard materials. Create mystery through controlled contrast and restrained detail rather than by automatically adding gothic architecture or occult symbols. Keep the focal subject readable within the darker treatment. Preserve the requested design, composition, and background.",
+    "negative_prompt": "Avoid added occult symbols, unrequested horror elements, crushed blacks, excessive distressing, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "插画·复古蒸汽幻想材质",
+    "prompt": "Render {prompt} with the tactile finish of a refined retro-industrial fantasy illustration. Give existing metal, leather, glass, and fabric distinct surface behavior, using restrained wear and carefully placed reflections. Combine clean structural drawing with subtle painterly aging rather than covering everything in grime. Express the aesthetic through materials and rendering, not by adding gears, pipes, or Victorian accessories. Preserve the requested subject and background.",
+    "negative_prompt": "Avoid added mechanical parts, excessive rust, uniform grime, unrequested costume changes, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "插画·赛博潮流角色渲染",
+    "prompt": "Render {prompt} with a contemporary cyber-fashion illustration finish. Combine crisp shadow shapes, sleek material accents, and restrained colored reflections that follow the existing form. Maintain clear differences between skin, cloth, plastic, and metal where those materials are present. Let the technological mood emerge from the rendering rather than from added circuitry, signage, or city scenery. Preserve the requested design, composition, and background.",
+    "negative_prompt": "Avoid added circuitry, automatic neon signage, excessive glow, uniformly metallic surfaces, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "媒介·透明水彩与细线",
+    "prompt": "Render {prompt} as a refined watercolor illustration supported by delicate linework. Build forms through transparent washes, subtle pigment pooling, selective wet edges, and small areas of preserved paper light. Keep facial features and important structural details controlled while allowing secondary color passages to breathe. Apply the watercolor texture to the illustrated subject without adding splashes or staining the background unless requested. Preserve the original design and composition.",
+    "negative_prompt": "Avoid muddy wash buildup, uncontrolled bleeding across key contours, added paint splashes, obscured facial features, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "媒介·不透明水粉",
+    "prompt": "Render {prompt} as an opaque gouache illustration with matte surfaces and visibly deliberate brushwork. Use layered color shapes, softly broken edges, and simplified tonal modeling to create a tactile painted finish. Allow occasional dry-brush texture while keeping the main silhouette and focal details clear. Distinguish materials through shape and value rather than through glossy digital effects. Preserve the requested content, composition, and background.",
+    "negative_prompt": "Avoid plastic shine, excessive airbrushing, indiscriminate roughness, muddy overlaps, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "媒介·彩铅细描",
+    "prompt": "Render {prompt} as a carefully layered colored-pencil illustration. Use directional strokes that follow form, delicate hatching, subtle paper tooth within the colored areas, and patiently built transitions. Keep outlines integrated with the shading instead of enclosing every shape with the same weight. Resolve the focal features more densely while allowing secondary passages to retain a light hand-drawn character. Preserve the requested design, framing, and background.",
+    "negative_prompt": "Avoid digital plastic smoothness, random scratch marks, excessive grain, unrequested sketch annotations, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "媒介·马克笔概念插画",
+    "prompt": "Render {prompt} as a polished marker illustration with confident linework and translucent overlapping strokes. Use broad tonal passes, visible stroke direction, controlled edge darkening, and selective opaque highlights. Keep volume readable through economical layering rather than through continuous digital gradients. Let the drawing retain the clarity of a carefully executed presentation sketch. Preserve the requested subject, proportions, composition, and background.",
+    "negative_prompt": "Avoid uncontrolled marker bleed, excessive streaking across faces, muddy layering, added annotations, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "媒介·油画式数字厚涂",
+    "prompt": "Render {prompt} as a digital painting that retains the material logic of oil paint. Build volume with opaque strokes, subtle glazing, broken color, and a deliberate alternation of thick-looking accents and thin transitional passages. Use selective edge loss to connect forms while keeping focal anatomy and important objects clear. Let the brushwork describe structure rather than serve as an all-over texture filter. Preserve the requested subject and composition.",
+    "negative_prompt": "Avoid uniform canvas overlays, excessive impasto everywhere, muddy blending, unresolved focal anatomy, unrequested objects, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "媒介·钢笔淡彩",
+    "prompt": "Render {prompt} as an elegant pen-and-wash illustration. Use varied ink contours, selective hatching, light transparent color washes, and deliberate unpainted intervals that keep the drawing breathable. Let linework carry construction while washes provide volume and material separation. Keep important details legible without filling every surface with crosshatching. Preserve the requested composition and do not add framing ornaments, notes, or scenery.",
+    "negative_prompt": "Avoid uniformly dense hatching, blotchy washes, excessive contour weight, added annotations, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "媒介·版画刻线与有限设色",
+    "prompt": "Render {prompt} with the graphic discipline of a finely crafted print. Define form through directional engraved lines, compact shadow masses, and a restrained number of flat color areas. Let the marks follow anatomy and material instead of applying the same hatch pattern everywhere. Keep important contours and negative spaces clear at a distance. Preserve the requested design and composition without adding borders or decorative emblems.",
+    "negative_prompt": "Avoid indiscriminate crosshatching, unreadable dark masses, added borders, random decorative symbols, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "平面·新艺术运动人物插画",
+    "prompt": "Render {prompt} using the flowing contour language and decorative balance of Art Nouveau illustration. Emphasize elegant line rhythms, flattened tonal organization, and harmonious relationships between the existing hair, fabric, and accessory shapes. Express ornament through the treatment of forms already present rather than by adding floral borders or new patterns. Keep the subject identifiable and the composition unchanged. Preserve the requested background.",
+    "negative_prompt": "Avoid added botanical framing, invented ornamental patterns, unrequested body elongation, excessive decorative density, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "平面·现代波普商业插画",
+    "prompt": "Render {prompt} as a contemporary pop-art illustration with bold contours, clean shadow shapes, and confident graphic contrast. Use selective halftone or print-like texture only where it supports volume and visual rhythm. Keep the existing subject iconic and immediately readable without duplicating it into a poster grid. Retain the requested design and proportions. Do not add slogans, speech bubbles, logos, or background graphics unless requested.",
+    "negative_prompt": "Avoid repeated subjects, added speech bubbles, indiscriminate halftone, cluttered graphic overlays, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "平面·复古杂志广告绘画",
+    "prompt": "Render {prompt} as a refined mid-century commercial illustration. Use sculpted highlight shapes, economical painterly transitions, crisply described fabric folds, and a polished but visibly illustrated surface. Balance realistic material observation with elegant graphic simplification. Give the focal features a confident finished quality while keeping secondary passages economical. Preserve the requested composition and do not introduce magazine layouts, typography, or period props.",
+    "negative_prompt": "Avoid added editorial layouts, vintage props, excessive aging filters, waxy skin, unintended anatomical errors, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "三维感·动漫手办材质渲染",
+    "prompt": "Render {prompt} with the material finish of a premium painted anime collectible while preserving the original illustrated proportions and composition. Use smooth sculptural volume, controlled painted surface variation, soft occlusion at existing overlaps, and restrained specular highlights. Keep the face expressive and avoid making all materials look like identical plastic. Translate the rendering only; do not add a display base, packaging, seams, or product photography scenery. Preserve the requested background.",
+    "negative_prompt": "Avoid added display bases, packaging, manufacturing seams, toy-like proportion changes, excessive plastic shine, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "三维感·非真实感卡通渲染",
+    "prompt": "Render {prompt} with a polished non-photorealistic three-dimensional appearance. Combine stable sculptural volume with clean toon shadow bands, restrained contour accents, and simplified material responses. Keep the silhouette graphic and the focal features expressive, avoiding the visual complexity of fully realistic surfaces. Preserve the requested anatomy, costume, pose, and framing. Do not introduce new geometry, props, or environmental elements.",
+    "negative_prompt": "Avoid faceted anatomy unless requested, overly realistic pores, excessive ambient occlusion, unrequested design changes, unwanted text, signatures, and watermarks."
+  },
+  {
+    "name": "插画·受控故障与错色印刷",
+    "prompt": "Render {prompt} as a clear contemporary illustration with restrained glitch and registration-shift effects. Establish a clean underlying drawing first, then introduce selective channel offsets, small fragmented edges, or localized print misalignment in secondary areas. Keep the eyes, face, hands, and essential design features legible. Treat distortion as an intentional surface treatment rather than as a change to anatomy or object count. Preserve the requested composition and background without adding digital symbols or overlays.",
+    "negative_prompt": "Avoid unreadable faces, duplicated limbs, large displaced body parts, full-frame interference, added interface graphics, unwanted text, signatures, and watermarks."
+  }
+]

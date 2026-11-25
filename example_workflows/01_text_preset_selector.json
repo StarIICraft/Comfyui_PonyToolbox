@@ -1,0 +1,105 @@
+{
+  "id": "pony-toolbox-01",
+  "revision": 0,
+  "last_node_id": 10,
+  "last_link_id": 1,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "PonyToolboxTextPresetSelector",
+      "pos": [
+        80,
+        120
+      ],
+      "size": [
+        420,
+        300
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "label": "文本",
+          "localized_name": "文本",
+          "name": "文本",
+          "type": "STRING",
+          "links": [
+            1
+          ]
+        }
+      ],
+      "title": "文本预设-小马",
+      "properties": {
+        "Node name for S&R": "PonyToolboxTextPresetSelector"
+      },
+      "widgets_values": [
+        "01_图像编辑提示增强功能.txt"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "ShowText|pysssss",
+      "pos": [
+        520,
+        80
+      ],
+      "size": [
+        360,
+        220
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "文本",
+          "name": "text_0",
+          "type": "STRING",
+          "widget": {
+            "name": "text_0"
+          },
+          "link": null
+        },
+        {
+          "label": "文本",
+          "localized_name": "文本",
+          "name": "text",
+          "type": "STRING",
+          "link": 1
+        }
+      ],
+      "outputs": [],
+      "title": "预览输出 1",
+      "properties": {
+        "Node name for S&R": "ShowText|pysssss"
+      },
+      "widgets_values": [
+        ""
+      ]
+    }
+  ],
+  "links": [
+    [
+      1,
+      1,
+      0,
+      10,
+      1,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 0.85,
+      "offset": [
+        60,
+        60
+      ]
+    }
+  },
+  "version": 0.4
+}

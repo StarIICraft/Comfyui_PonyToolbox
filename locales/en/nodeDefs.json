@@ -1,0 +1,322 @@
+{
+  "PonyToolboxTextPresetSelector": {
+    "display_name": "Text Preset-Pony",
+    "description": "Load a TXT or Markdown preset from the presets folder and output its full contents.",
+    "inputs": {
+      "预设": {
+        "name": "Preset",
+        "tooltip": "Select a TXT or Markdown preset from the presets folder."
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "Text",
+        "tooltip": "Full contents of the selected preset."
+      }
+    }
+  },
+  "PonyToolboxEnhancedTextPresetSelector": {
+    "display_name": "Enhanced Text Preset-Pony",
+    "description": "Load a preset into an editable multiline field without changing the source file.",
+    "inputs": {
+      "预设": {
+        "name": "Preset",
+        "tooltip": "Select the TXT or Markdown preset to load."
+      },
+      "临时编辑文本": {
+        "name": "Editable Text",
+        "tooltip": "Edit the loaded text here without writing it back to the source file."
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "Text",
+        "tooltip": "Edited text contents."
+      }
+    }
+  },
+  "PonyToolboxSimpleTextSelector": {
+    "display_name": "TXT Preset-Pony",
+    "description": "Read a titled section from a TXT file in text_library.",
+    "inputs": {
+      "TXT文件": {
+        "name": "TXT File",
+        "tooltip": "Select a TXT file from text_library."
+      },
+      "预设标题": {
+        "name": "Preset Title",
+        "tooltip": "Select the titled section to read."
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "Text Output",
+        "tooltip": "Contents of the selected titled section."
+      }
+    }
+  },
+  "PonyToolboxEditableTextSelector": {
+    "display_name": "Editable Text Preset-Pony",
+    "description": "Load a titled TXT preset, edit its contents, and output the edited text.",
+    "inputs": {
+      "TXT文件": {
+        "name": "TXT File",
+        "tooltip": "Select a TXT file from text_library."
+      },
+      "预设标题": {
+        "name": "Preset Title",
+        "tooltip": "Select the titled section to load and edit."
+      },
+      "文本内容": {
+        "name": "Text Content",
+        "tooltip": "Edit the current section here; this value is returned."
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "Text Output",
+        "tooltip": "Current text from the editing field."
+      }
+    }
+  },
+  "PonyToolboxAdvancedTextConcat": {
+    "display_name": "Advanced Text Concat-Pony",
+    "description": "Join up to five text parts with empty handling, whitespace cleanup, deduplication, and escape decoding.",
+    "inputs": {
+      "text1": {
+        "name": "Text 1",
+        "tooltip": "First text part."
+      },
+      "text2": {
+        "name": "Text 2",
+        "tooltip": "Second text part."
+      },
+      "text3": {
+        "name": "Text 3",
+        "tooltip": "Third text part."
+      },
+      "delimiter": {
+        "name": "Delimiter",
+        "tooltip": "String inserted between text parts."
+      },
+      "text4": {
+        "name": "Text 4",
+        "tooltip": "Optional fourth text part."
+      },
+      "text5": {
+        "name": "Text 5",
+        "tooltip": "Optional fifth text part."
+      },
+      "skip_empty": {
+        "name": "Skip Empty",
+        "tooltip": "Skip empty strings and empty values."
+      },
+      "trim_parts": {
+        "name": "Trim Parts",
+        "tooltip": "Remove leading and trailing whitespace from each part."
+      },
+      "remove_empty_lines": {
+        "name": "Remove Empty Lines",
+        "tooltip": "Remove empty lines from the result."
+      },
+      "collapse_whitespace": {
+        "name": "Collapse Whitespace",
+        "tooltip": "Collapse consecutive whitespace into one space."
+      },
+      "deduplicate": {
+        "name": "Deduplicate",
+        "tooltip": "Remove adjacent duplicate text parts."
+      },
+      "decode_escapes": {
+        "name": "Decode Escapes",
+        "tooltip": "Convert \\n, \\r, \\t, and \\\\ escape sequences."
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "Concatenated Text",
+        "tooltip": "Processed concatenated text."
+      }
+    }
+  },
+  "PonyToolboxAdvancedPromptStyler": {
+    "display_name": "Prompt Styler-Pony",
+    "description": "Apply a style template to positive and negative prompts with optional style-name override.",
+    "inputs": {
+      "text_positive": {
+        "name": "Positive Prompt",
+        "tooltip": "Positive prompt to style."
+      },
+      "text_negative": {
+        "name": "Negative Prompt",
+        "tooltip": "Negative prompt to style."
+      },
+      "style_file": {
+        "name": "Style File",
+        "tooltip": "Choose the JSON style file shown above the style list."
+      },
+      "style": {
+        "name": "Style",
+        "tooltip": "Select a style preset from the styles folder."
+      },
+      "log_prompt": {
+        "name": "Log Prompt",
+        "tooltip": "Print the final prompts to the console."
+      },
+      "style_name": {
+        "name": "Style Name",
+        "tooltip": "Optional override for the selected style."
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "Positive Prompt",
+        "tooltip": "Styled positive prompt."
+      },
+      "1": {
+        "name": "Negative Prompt",
+        "tooltip": "Styled negative prompt."
+      }
+    }
+  },
+  "PonyToolboxAbsoluteAnySwitch": {
+    "display_name": "Absolute Any Switch-Pony",
+    "description": "Select the first valid branch while skipping muted, bypassed, disabled, and empty upstream inputs.",
+    "inputs": {
+      "allow_muted_upstream": {
+        "name": "Allow upstream transfer",
+        "tooltip": "Allow valid values to pass through muted, bypassed, or disabled upstream nodes. Disabled by default."
+      },
+      "any_01": {
+        "name": "Input 01",
+        "tooltip": "Select the first valid value in input-number order."
+      },
+      "any_02": {
+        "name": "Input 02",
+        "tooltip": "Select the first valid value in input-number order."
+      },
+      "any_03": {
+        "name": "Input 03",
+        "tooltip": "Select the first valid value in input-number order."
+      },
+      "any_04": {
+        "name": "Input 04",
+        "tooltip": "Select the first valid value in input-number order."
+      },
+      "any_05": {
+        "name": "Input 05",
+        "tooltip": "Select the first valid value in input-number order."
+      },
+      "any_06": {
+        "name": "Input 06",
+        "tooltip": "Select the first valid value in input-number order."
+      },
+      "any_07": {
+        "name": "Input 07",
+        "tooltip": "Select the first valid value in input-number order."
+      },
+      "any_08": {
+        "name": "Input 08",
+        "tooltip": "Select the first valid value in input-number order."
+      },
+      "any_09": {
+        "name": "Input 09",
+        "tooltip": "Select the first valid value in input-number order."
+      },
+      "any_10": {
+        "name": "Input 10",
+        "tooltip": "Select the first valid value in input-number order."
+      },
+      "any_11": {
+        "name": "Input 11",
+        "tooltip": "Select the first valid value in input-number order."
+      },
+      "any_12": {
+        "name": "Input 12",
+        "tooltip": "Select the first valid value in input-number order."
+      },
+      "any_13": {
+        "name": "Input 13",
+        "tooltip": "Select the first valid value in input-number order."
+      },
+      "any_14": {
+        "name": "Input 14",
+        "tooltip": "Select the first valid value in input-number order."
+      },
+      "any_15": {
+        "name": "Input 15",
+        "tooltip": "Select the first valid value in input-number order."
+      },
+      "any_16": {
+        "name": "Input 16",
+        "tooltip": "Select the first valid value in input-number order."
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "Output",
+        "tooltip": "First valid input value."
+      }
+    }
+  },
+  "PonyToolboxMatting": {
+    "display_name": "Matting-Pony",
+    "description": "Remove backgrounds with local INSPYRENET or FeyNoBg models and output RGBA, mask, and mask preview.",
+    "inputs": {
+      "backend": {
+        "name": "Matting Model",
+        "tooltip": "Select the local INSPYRENET or FeyNoBg model."
+      },
+      "image": {
+        "name": "Image",
+        "tooltip": "Image batch whose background should be removed."
+      },
+      "sensitivity": {
+        "name": "Sensitivity",
+        "tooltip": "Adjust mask contrast; 1.0 keeps the model prediction."
+      },
+      "mask_offset_percent": {
+        "name": "Mask Offset Percent",
+        "tooltip": "Offset based on megapixel-equivalent image length; positive expands, negative contracts. Default -0.1%."
+      },
+      "mask_feather_percent": {
+        "name": "Mask Feather Percent",
+        "tooltip": "Feather after offset using a Gaussian radius based on megapixel-equivalent image length. Default 0.07%."
+      },
+      "invert_output": {
+        "name": "Invert Mask",
+        "tooltip": "Invert the final mask."
+      },
+      "refine_foreground": {
+        "name": "Refine Foreground",
+        "tooltip": "Refine hair and translucent edges to reduce old-background halos."
+      },
+      "background": {
+        "name": "Background Mode",
+        "tooltip": "Output transparency or composite the subject onto a solid color."
+      },
+      "background_color": {
+        "name": "Background Color",
+        "tooltip": "Hex color used by solid-background mode, such as #222222."
+      },
+      "memory_policy": {
+        "name": "Memory Policy",
+        "tooltip": "Keep the model loaded for speed or unload it after each run."
+      }
+    },
+    "outputs": {
+      "0": {
+        "name": "Image",
+        "tooltip": "Matting result or solid-background composite."
+      },
+      "1": {
+        "name": "Mask",
+        "tooltip": "Matting alpha mask."
+      },
+      "2": {
+        "name": "Mask Image",
+        "tooltip": "Mask image for preview."
+      }
+    }
+  }
+}
