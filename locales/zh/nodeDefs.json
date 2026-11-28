@@ -81,51 +81,31 @@
   },
   "PonyToolboxAdvancedTextConcat": {
     "display_name": "高级文本拼接-小马",
-    "description": "合并最多五段文本，支持忽略空值、清理空白、去除空行、去重和转义解析。",
+    "description": "编辑或连接多行文本，再按分隔符合并；默认显示两行，可通过节点内菜单增删。",
     "inputs": {
       "text1": {
-        "name": "文本 1",
-        "tooltip": "第一段文本。"
+        "name": "文本行 1",
+        "tooltip": "连接字符串输出；这是第 1 个文本行。"
       },
       "text2": {
-        "name": "文本 2",
-        "tooltip": "第二段文本。"
+        "name": "文本行 2",
+        "tooltip": "连接字符串输出；这是第 2 个文本行。"
       },
       "text3": {
-        "name": "文本 3",
-        "tooltip": "第三段文本。"
+        "name": "文本行 3",
+        "tooltip": "连接字符串输出；这是第 3 个文本行。"
       },
       "delimiter": {
         "name": "分隔符",
         "tooltip": "各段文本之间使用的分隔字符串。"
       },
       "text4": {
-        "name": "文本 4",
-        "tooltip": "可选的第四段文本。"
+        "name": "文本行 4",
+        "tooltip": "连接字符串输出；这是第 4 个文本行。"
       },
       "text5": {
-        "name": "文本 5",
-        "tooltip": "可选的第五段文本。"
-      },
-      "skip_empty": {
-        "name": "忽略空值",
-        "tooltip": "拼接时跳过空字符串和空值。"
-      },
-      "trim_parts": {
-        "name": "清理首尾空白",
-        "tooltip": "删除每段文本开头和结尾的空白。"
-      },
-      "remove_empty_lines": {
-        "name": "移除空行",
-        "tooltip": "删除结果中的空行。"
-      },
-      "collapse_whitespace": {
-        "name": "合并连续空白",
-        "tooltip": "把连续空白压缩为单个空格。"
-      },
-      "deduplicate": {
-        "name": "去除重复",
-        "tooltip": "删除相邻的重复文本段。"
+        "name": "文本行 5",
+        "tooltip": "连接字符串输出；这是第 5 个文本行。"
       },
       "decode_escapes": {
         "name": "解析转义字符",
@@ -135,12 +115,12 @@
     "outputs": {
       "0": {
         "name": "拼接结果",
-        "tooltip": "输出处理后的拼接文本。"
+        "tooltip": "输出使用指定分隔符拼接后的文本。"
       }
     }
   },
   "PonyToolboxAdvancedPromptStyler": {
-    "display_name": "提示词样式器-小马",
+    "display_name": "提示词风格器-小马",
     "description": "将样式模板应用到正向和负向提示词，并支持自定义样式名称。",
     "inputs": {
       "text_positive": {

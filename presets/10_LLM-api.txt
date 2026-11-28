@@ -1,14 +1,14 @@
 {
   "1api": {
-    "https": "***",
-    "api": "***"
+    "https": "https://api.deepseek.com",
+    "api": "YOUR_DEEPSEEK_API_KEY"
   },
   "2api": {
-    "https": "***",
-    "api": "***"
+    "https": "https://api.tu-zi.com/",
+    "api": "YOUR_TU_ZI_API_KEY"
   },
   "3api": {
-    "https": "***",
-    "api": "***"
+    "https": "https://api.tu-zi.com/v1/",
+    "api": "YOUR_TU_ZI_API_KEY"
   }
 }

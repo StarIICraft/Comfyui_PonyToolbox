@@ -2,83 +2,256 @@
   "id": "pony-toolbox-05",
   "revision": 0,
   "last_node_id": 10,
-  "last_link_id": 1,
+  "last_link_id": 3,
   "nodes": [
     {
       "id": 1,
       "type": "PonyToolboxAdvancedTextConcat",
       "pos": [
-        80,
+        440,
         120
-      ],
-      "size": [
-        420,
-        300
-      ],
-      "flags": {},
-      "order": 0,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "label": "concat",
-          "localized_name": "concat",
-          "name": "concat",
-          "type": "STRING",
-          "links": [
-            1
-          ]
-        }
-      ],
-      "title": "高级文本拼接-小马",
-      "properties": {
-        "Node name for S&R": "PonyToolboxAdvancedTextConcat"
-      },
-      "widgets_values": [
-        "主体描述",
-        "动作姿态",
-        "场景与光线",
-        " ",
-        "",
-        "",
-        false,
-        true,
-        true,
-        true,
-        false,
-        true
-      ]
-    },
-    {
-      "id": 10,
-      "type": "ShowText|pysssss",
-      "pos": [
-        520,
-        80
       ],
       "size": [
         360,
         220
       ],
       "flags": {},
-      "order": 10,
+      "order": 2,
       "mode": 0,
       "inputs": [
         {
-          "localized_name": "文本",
-          "name": "text_0",
+          "label": "文本行 1",
+          "localized_name": "text1",
+          "name": "text1",
           "type": "STRING",
           "widget": {
-            "name": "text_0"
+            "name": "text1"
           },
-          "link": null
+          "link": 1
+        },
+        {
+          "label": "文本行 2",
+          "localized_name": "text2",
+          "name": "text2",
+          "type": "STRING",
+          "widget": {
+            "name": "text2"
+          },
+          "link": 2
+        }
+      ],
+      "outputs": [
+        {
+          "label": "拼接结果",
+          "localized_name": "concat",
+          "name": "concat",
+          "type": "STRING",
+          "links": [
+            3
+          ]
+        }
+      ],
+      "title": "高级文本拼接-小马",
+      "properties": {
+        "Node name for S&R": "PonyToolboxAdvancedTextConcat",
+        "ponyTextRows": 2,
+        "ponyTextSchemaVersion": 2
+      },
+      "widgets_values": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "\\n",
+        true
+      ],
+      "widgets_values_named": {
+        "text1": "",
+        "text2": "",
+        "text3": "",
+        "text4": "",
+        "text5": "",
+        "text6": "",
+        "text7": "",
+        "text8": "",
+        "text9": "",
+        "text10": "",
+        "text11": "",
+        "text12": "",
+        "text13": "",
+        "text14": "",
+        "text15": "",
+        "text16": "",
+        "text17": "",
+        "text18": "",
+        "text19": "",
+        "text20": "",
+        "text21": "",
+        "text22": "",
+        "text23": "",
+        "text24": "",
+        "text25": "",
+        "text26": "",
+        "text27": "",
+        "text28": "",
+        "text29": "",
+        "text30": "",
+        "text31": "",
+        "text32": "",
+        "delimiter": "\\n",
+        "decode_escapes": true
+      }
+    },
+    {
+      "id": 2,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        40,
+        100
+      ],
+      "size": [
+        360,
+        180
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "value",
+          "type": "STRING",
+          "link": null,
+          "localized_name": "文本",
+          "label": "文本",
+          "widget": {
+            "name": "value"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "slot_index": 0,
+          "links": [
+            1
+          ],
+          "localized_name": "字符串",
+          "label": "字符串"
+        }
+      ],
+      "title": "文本行 1 / Text row 1",
+      "properties": {
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "主体描述"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        40,
+        340
+      ],
+      "size": [
+        360,
+        180
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "value",
+          "type": "STRING",
+          "link": null,
+          "localized_name": "文本",
+          "label": "文本",
+          "widget": {
+            "name": "value"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "slot_index": 0,
+          "links": [
+            2
+          ],
+          "localized_name": "字符串",
+          "label": "字符串"
+        }
+      ],
+      "title": "文本行 2 / Text row 2",
+      "properties": {
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "动作姿态"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "ShowText|pysssss",
+      "pos": [
+        860,
+        120
+      ],
+      "size": [
+        360,
+        220
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text_0",
+          "type": "STRING",
+          "link": null,
+          "localized_name": "文本",
+          "widget": {
+            "name": "text_0"
+          }
         },
         {
           "label": "文本",
           "localized_name": "文本",
           "name": "text",
           "type": "STRING",
-          "link": 1
+          "link": 3
         }
       ],
       "outputs": [],
@@ -94,6 +267,22 @@
   "links": [
     [
       1,
+      2,
+      0,
+      1,
+      0,
+      "STRING"
+    ],
+    [
+      2,
+      3,
+      0,
+      1,
+      1,
+      "STRING"
+    ],
+    [
+      3,
       1,
       0,
       10,

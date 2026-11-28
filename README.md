@@ -4,7 +4,6 @@
 
 ComfyUI Pony Toolbox is a growing utility collection for ComfyUI workflows, covering text preset selection, prompt processing, generic branch switching, and unified INSPYRENET/FeyNoBg matting.
 
-![Overview](img/文本预设选择器.png)
 ![Overview](docs/images/00_overview.png)
 
 ## Nodes
@@ -15,7 +14,7 @@ ComfyUI Pony Toolbox is a growing utility collection for ComfyUI workflows, cove
 | `PonyToolboxEnhancedTextPresetSelector` | Enhanced Text Preset-Pony | Load a preset into an editable multiline field without changing the source file. |
 | `PonyToolboxSimpleTextSelector` | TXT Preset-Pony | Read a titled section from a TXT file in text_library. |
 | `PonyToolboxEditableTextSelector` | Editable Text Preset-Pony | Edit a titled TXT preset and create or save changes back to disk. |
-| `PonyToolboxAdvancedTextConcat` | Advanced Text Concat-Pony | Join up to five text parts with whitespace cleanup, deduplication, and escape decoding. |
+| `PonyToolboxAdvancedTextConcat` | Advanced Text Concat-Pony | Join 1-32 dynamic text rows with an optional delimiter and escape decoding. |
 | `PonyToolboxAdvancedPromptStyler` | Prompt Styler-Pony | Apply style templates to positive and negative prompts. |
 | `PonyToolboxAbsoluteAnySwitch` | Absolute Any Switch-Pony | Select the first valid branch while skipping muted, bypassed, and empty inputs. |
 | `PonyToolboxMatting` | Matting-Pony | Unified INSPYRENET and FeyNoBg matting with RGBA, mask, and mask preview output. |
@@ -54,6 +53,8 @@ Display-name and label updates do not change node IDs, connections, or widget ke
 ### Advanced text concatenation
 
 ![Advanced text concatenation](docs/images/05_advanced_text_concat.png)
+
+Edit the visible multiline text rows directly, or convert a row to an input and connect a string output. The node starts with two rows; use the inline **Text row actions** menu before the delimiter to add or remove rows from the bottom. A connected row cannot be removed. **Decode Escapes** converts `\n`, `\r`, `\t`, and `\\`.
 
 ### Prompt styler
 

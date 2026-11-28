@@ -3,9 +3,8 @@
 [English](README.md) | [简体中文](README.zh-CN.md)
 
 ComfyUI 小马工具箱是一套持续扩展的 ComfyUI 工作流工具，目前包含文本预设、文本编辑、提示词处理、绝对任意切换，以及支持 INSPYRENET 与 FeyNoBg 的抠图节点。
-![总览](img/文本预设选择器.png)
-![总览](docs/images/00_overview.png)
 
+![总览](docs/images/00_overview.png)
 
 ## 节点
 
@@ -15,8 +14,8 @@ ComfyUI 小马工具箱是一套持续扩展的 ComfyUI 工作流工具，目前
 | `PonyToolboxEnhancedTextPresetSelector` | 增强文本预设-小马 | 读取预设后允许多行临时编辑，不写回原文件。 |
 | `PonyToolboxSimpleTextSelector` | TXT 文本预设-小马 | 从 text_library 的 TXT 文件中按标题读取正文。 |
 | `PonyToolboxEditableTextSelector` | 文本预设编辑器-小马 | 选择标题后编辑正文，可新建或保存预设。 |
-| `PonyToolboxAdvancedTextConcat` | 高级文本拼接-小马 | 拼接最多五段文本，支持空值处理、空行清理、空白压缩和去重。 |
-| `PonyToolboxAdvancedPromptStyler` | 提示词样式器-小马 | 将样式模板应用到正负提示词，并支持自定义样式名称。 |
+| `PonyToolboxAdvancedTextConcat` | 高级文本拼接-小马 | 拼接 1～32 行动态文本，支持自定义分隔符和转义字符解析。 |
+| `PonyToolboxAdvancedPromptStyler` | 提示词风格器-小马 | 将样式模板应用到正负提示词，并支持自定义样式名称。 |
 | `PonyToolboxAbsoluteAnySwitch` | 绝对任意切换-小马 | 按编号选择首个非空有效分支，兼容静音和旁路上游。 |
 | `PonyToolboxMatting` | 抠图-小马 | 统一支持 INSPYRENET 与 FeyNoBg，输出 RGBA、遮罩和遮罩图。 |
 
@@ -31,7 +30,7 @@ ComfyUI 小马工具箱是一套持续扩展的 ComfyUI 工作流工具，目前
 - [TXT 文本预设-小马](example_workflows/03_simple_text_selector.json)
 - [文本预设编辑器-小马](example_workflows/04_editable_text_selector.json)
 - [高级文本拼接-小马](example_workflows/05_advanced_text_concat.json)
-- [提示词样式器-小马](example_workflows/06_advanced_prompt_styler.json)
+- [提示词风格器-小马](example_workflows/06_advanced_prompt_styler.json)
 - [绝对任意切换-小马](example_workflows/07_absolute_any_switch.json)
 - [抠图-小马](example_workflows/08_matting.json)
 
@@ -55,9 +54,11 @@ ComfyUI 小马工具箱是一套持续扩展的 ComfyUI 工作流工具，目前
 
 ![高级文本拼接](docs/images/05_advanced_text_concat.png)
 
-### 提示词样式器
+可直接编辑可见的多行文本框，也可将文本行转换为输入后连接字符串输出。节点默认显示两行；通过分隔符上方的“文本行操作”下拉菜单可从底部倒序增加或删除一行，已连接的文本行不能删除。“解析转义字符”会把 `\n`、`\r`、`\t` 和 `\\` 转换为对应字符。
 
-![提示词样式器](docs/images/06_advanced_prompt_styler.png)
+### 提示词风格器
+
+![提示词风格器](docs/images/06_advanced_prompt_styler.png)
 
 ### 绝对任意切换
 

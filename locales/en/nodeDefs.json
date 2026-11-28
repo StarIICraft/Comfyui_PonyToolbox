@@ -81,51 +81,31 @@
   },
   "PonyToolboxAdvancedTextConcat": {
     "display_name": "Advanced Text Concat-Pony",
-    "description": "Join up to five text parts with empty handling, whitespace cleanup, deduplication, and escape decoding.",
+    "description": "Edit or connect multiline text rows, then join them with a delimiter. Two rows are shown by default and can be added or removed from the inline menu.",
     "inputs": {
       "text1": {
-        "name": "Text 1",
-        "tooltip": "First text part."
+        "name": "Text row 1",
+        "tooltip": "Connect a string output; this is text row 1."
       },
       "text2": {
-        "name": "Text 2",
-        "tooltip": "Second text part."
+        "name": "Text row 2",
+        "tooltip": "Connect a string output; this is text row 2."
       },
       "text3": {
-        "name": "Text 3",
-        "tooltip": "Third text part."
+        "name": "Text row 3",
+        "tooltip": "Connect a string output; this is text row 3."
       },
       "delimiter": {
         "name": "Delimiter",
         "tooltip": "String inserted between text parts."
       },
       "text4": {
-        "name": "Text 4",
-        "tooltip": "Optional fourth text part."
+        "name": "Text row 4",
+        "tooltip": "Connect a string output; this is text row 4."
       },
       "text5": {
-        "name": "Text 5",
-        "tooltip": "Optional fifth text part."
-      },
-      "skip_empty": {
-        "name": "Skip Empty",
-        "tooltip": "Skip empty strings and empty values."
-      },
-      "trim_parts": {
-        "name": "Trim Parts",
-        "tooltip": "Remove leading and trailing whitespace from each part."
-      },
-      "remove_empty_lines": {
-        "name": "Remove Empty Lines",
-        "tooltip": "Remove empty lines from the result."
-      },
-      "collapse_whitespace": {
-        "name": "Collapse Whitespace",
-        "tooltip": "Collapse consecutive whitespace into one space."
-      },
-      "deduplicate": {
-        "name": "Deduplicate",
-        "tooltip": "Remove adjacent duplicate text parts."
+        "name": "Text row 5",
+        "tooltip": "Connect a string output; this is text row 5."
       },
       "decode_escapes": {
         "name": "Decode Escapes",
@@ -135,7 +115,7 @@
     "outputs": {
       "0": {
         "name": "Concatenated Text",
-        "tooltip": "Processed concatenated text."
+        "tooltip": "Text rows joined with the configured delimiter."
       }
     }
   },
